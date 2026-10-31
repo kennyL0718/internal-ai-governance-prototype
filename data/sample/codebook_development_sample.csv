@@ -1,0 +1,51 @@
+﻿cik,fiscal_year,ticker,sector,both_sections_positive,sections,evidence_characters,length_bin
+0000004962,2020,AXP,Financials,False,item7,548,1
+0000093751,2020,STT,Financials,False,item7,668,2
+0000004962,2021,AXP,Financials,False,item7,675,2
+0000093751,2021,STT,Financials,False,item7,929,3
+0000004962,2022,AXP,Financials,False,item7,1018,3
+0001932393,2022,GEHC,Health Care,False,item1a,793,2
+0000093751,2022,STT,Financials,False,item7,898,3
+0001334036,2023,CROX,Consumer Discretionary,False,item1a,492,1
+0001690820,2023,CVNA,Consumer Discretionary,False,item1a,572,1
+0001582961,2023,DOCN,Information Technology,False,item1a,369,0
+0000887936,2023,FCN,Industrials,False,item1a,739,2
+0000821002,2023,GIII,Consumer Discretionary,False,item1a,345,0
+0001467858,2023,GM,Consumer Discretionary,True,item1a+item7,1523,3
+0000879101,2023,KIM,Real Estate,False,item1a,678,2
+0001955520,2023,KNF,Materials,False,item1a,384,0
+0001280452,2023,MPWR,Information Technology,False,item1a,1166,3
+0001321655,2023,PLTR,Information Technology,False,item1a,817,2
+0000110621,2023,RPM,Materials,False,item1a,1035,3
+0000024545,2023,TAP,Consumer Staples,False,item1a,503,1
+0000731766,2023,UNH,Health Care,False,item1a,1010,3
+0001996862,2024,BG,Consumer Staples,False,item1a,774,2
+0001486159,2024,CHRD,Energy,False,item1a,868,3
+0001288847,2024,FIVN,Information Technology,False,item1a,523,1
+0000861459,2024,GVA,Industrials,False,item1a,584,1
+0000793952,2024,HOG,Consumer Discretionary,False,item1a,517,1
+0001037976,2024,JLL,Real Estate,False,item1a,242,0
+0001944048,2024,KVUE,Consumer Staples,False,item1a,760,2
+0000827054,2024,MCHP,Information Technology,False,item1a,828,2
+0001598428,2024,MTUS,Materials,False,item1a,574,1
+0001396814,2024,PCRX,Health Care,False,item1a,491,1
+0000764622,2024,PNW,Utilities,False,item7,610,2
+0001063761,2024,SPG,Real Estate,False,item1a,321,0
+0001126956,2024,SR,Utilities,False,item1a,270,0
+0001552033,2024,TRU,Industrials,False,item1a,204,0
+0001097149,2025,ALGN,Health Care,False,item7,793,2
+0000104918,2025,AVA,Utilities,False,item7,865,2
+0001701605,2025,BKR,Energy,False,item1a,114,0
+0001827090,2025,CERT,Health Care,False,item7,1398,3
+0001376139,2025,CVI,Energy,False,item1a,539,1
+0001298946,2025,DRH,Real Estate,False,item1a,601,1
+0000891103,2025,MTCH,Communication Services,False,item1a,1006,3
+0000073124,2025,NTRS,Financials,True,item1a+item7,1842,3
+0001587732,2025,OGS,Utilities,False,item1a,244,0
+0000742278,2025,RES,Energy,False,item1a,462,1
+0000084839,2025,ROL,Industrials,False,item7,301,0
+0000908937,2025,SIRI,Communication Services,False,item1a,350,0
+0001856485,2025,SLVM,Materials,False,item1a,956,3
+0000016918,2025,STZ,Consumer Staples,False,item1a,169,0
+0001084048,2025,ZD,Communication Services,False,item1a,500,1
+0000109380,2025,ZION,Financials,True,item1a+item7,1529,3

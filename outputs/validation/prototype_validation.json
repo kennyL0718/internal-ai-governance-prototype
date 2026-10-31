@@ -1,0 +1,70 @@
+{
+  "artifact": "AI Governance Research Prototype",
+  "llm_calls": 0,
+  "sealed_files": {
+    "status": "not yet sealed during assembly"
+  },
+  "copied_files": {
+    "assembled_files_checked": 169,
+    "mismatches": [],
+    "original_source_hashes_checked": true,
+    "original_source_changes": []
+  },
+  "governance": {
+    "firm_year_panel": {
+      "rows": 8500,
+      "columns": 29,
+      "unequal_cells": 0
+    },
+    "exclusion_panel": {
+      "rows": 500,
+      "columns": 29,
+      "unequal_cells": 0
+    },
+    "final_records_n": 16222,
+    "frame_firm_year_n": 9000,
+    "annual_counts_and_rates_match": true
+  },
+  "practices": {
+    "native_panel": {
+      "rows": 303,
+      "columns": 108,
+      "unequal_cells": 0
+    },
+    "primary_panel": {
+      "rows": 303,
+      "columns": 28,
+      "unequal_cells": 0
+    },
+    "validated_evidence_units_n": 403,
+    "exact_context_quote_rows_n": 606,
+    "practice_assignments_n": 467,
+    "practice_statistics_match": true,
+    "validation_scope": "Original structural, category, status and continuous-context quote checks; no semantic accuracy claim"
+  },
+  "sample_non_api_smoke": {
+    "source_sections_n": 5,
+    "source_hashes_match": true,
+    "source_quote_and_schema_validation": true,
+    "saved_system_prompt_matches_builder": true,
+    "historical_request_payloads_built_without_network": 5,
+    "exact_original_payload_hash_matches": 5,
+    "practices_saved_request_matches_runtime_builder": true,
+    "practices_runtime_template_verified_against_saved_request": true,
+    "label_counts": {
+      "Negative": 1,
+      "Positive": 4
+    },
+    "paid_inference_executed": false
+  },
+  "credentials": {
+    "files_scanned": 258,
+    "credential_value_findings": []
+  },
+  "passed": true,
+  "unverified": [
+    "Fresh provider inference and bitwise reproducibility of model outputs",
+    "Independent human semantic accuracy",
+    "Full-universe upstream 10-K acquisition and text extraction"
+  ]
+}

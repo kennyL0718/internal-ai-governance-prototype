@@ -1,0 +1,19 @@
+{
+  "run_id": "implemented-ai-governance-content-v1-20261018",
+  "stage": "reported",
+  "prepared_utc": "2026-10-18T07:40:07.886169+00:00",
+  "protected_inputs": "data/interim/classifications/implemented_ai_governance_content_analysis/v1/protected_inputs.json",
+  "input_digest": "5f3c1cfccee186d8b39aeac14810092989b1bf6b2b2de7d8bfa4b238d8be2714",
+  "state_directory": "data/interim/classifications/implemented_ai_governance_content_analysis/v1",
+  "outputs_directory": "outputs/implemented_ai_governance_content_analysis",
+  "version": "implemented-ai-governance-content-v1.0",
+  "codebook_sha256": "eb145750b1b3169aa1c372395d1810cbe0ff9008175325f261bd39b58753a698",
+  "frozen_utc": "2026-10-18T08:01:47.017110+00:00",
+  "freeze_review": "Research assistant inspected category definitions, quote provenance and neighboring-category boundaries; no independent human reliability study.",
+  "coding_finished_utc": "2026-10-18T08:16:12.573531+00:00",
+  "workers": 16,
+  "reported_utc": "2026-10-18T08:16:35.407607+00:00",
+  "automatic_integrity_passed": true,
+  "human_review_pending": true,
+  "narrative_refreshed_utc": "2026-10-18T08:22:21.780879+00:00"
+}

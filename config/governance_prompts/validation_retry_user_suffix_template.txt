@@ -1,0 +1,14 @@
+
+VALIDATION RECOVERY REQUEST
+The previous response for this same complete section failed validation or retained
+a material-review state. Feedback: {feedback}
+Recheck the complete supplied text under the same authoritative v2 standard.
+Return exactly the required JSON fields. Do not add response_format/type metadata.
+Each evidence element must be a contiguous quotation copied directly from this
+section. Preserve actual source wording and punctuation. Do not paraphrase, combine
+separated sentences or replace source text with a summary. Negative may use an
+empty evidence array if there is no relevant evidence. A Positive must retain the
+complete C1-C5 source connection. Do not change classification merely to fix a quote.
+If implementation evidence consists of developing/establishing a future arrangement,
+apply the standard's C3 and future-plan exclusion. Retain null review only when
+material ambiguity truly prevents a binary judgment under the supplied standard.

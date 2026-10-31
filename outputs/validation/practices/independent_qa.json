@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "positive_firm_years": 303,
+  "evidence_rows": 403,
+  "labels_checked": 1616,
+  "source_files_hash_checked": 306,
+  "category_set_union_reconciled": 30,
+  "queue_rows": 134,
+  "figure_source_rows_checked": 382,
+  "positioning_groups_checked": 4,
+  "final_figure_count": 7,
+  "human_decisions_created": 0,
+  "caveat": "Independent implementation of integrity checks, not independent human semantic validation."
+}

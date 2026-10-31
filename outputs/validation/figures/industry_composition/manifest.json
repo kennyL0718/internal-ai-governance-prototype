@@ -1,0 +1,62 @@
+{
+  "run_id": "industry_within_disclosure_composition_v1_20261028",
+  "created_at_utc": "2026-10-28T09:15:26.315346+00:00",
+  "source_versions": {
+    "governance": "implemented-internal-ai-governance-v2.0",
+    "orientation": "fullsample_v3_20261025"
+  },
+  "input_sha256": {
+    "data/interim/classifications/corporate_pro_ai_orientation/fullsample_v3_20261025/firm_year_panel.csv": "eb7732735c47e5a3cd16f6f70c42ab1587b6a10f978e0aafb317a7f0b317ea7e",
+    "data/interim/classifications/corporate_pro_ai_orientation/fullsample_v3_20261025/firm_year_exclusion_manifest.csv": "9264f35fc01df665d9249dc93ba5bd9a7f6849512b837fee99d782c1372b70f1",
+    "data/interim/classifications/corporate_pro_ai_orientation/fullsample_v3_20261025/run_manifest.json": "8db871a711e013ad7c9e559c2cb5075c943e89b29b2e11f41941400d30637a7a",
+    "outputs/reports/fullsample_v3_20261025/qa.json": "6d20bb961add6f00d6949defc99f248b056fad0036e2f08d1d59925a83895dcb",
+    "outputs/reports/fullsample_v3_20261025/sample_accounting.json": "d40a7e32e85e2112d018a2f9560c68e7689e579ff5e603cf9b3d65564a6c59ef",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/combined_firm_year_v2_panel.csv": "dc4b64256cbf72caf5c7bc425fc5daeacf36896b59f2109af97976c6d0237849",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/exclusion_manifest.csv": "3d6d7d7963ae2094b06cc778e106c314bb0975ad52e9826047e2174eb28ef696",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/delivery_qa.json": "ef0492e5e20affba08627e8acf03a38284a85b4369085bd2678ceb38a13d96d4",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/delivery_manifest.json": "3a36608303b894fb9f3cff057e8370a682be30d959dde35d85fd3f2338d3f8be",
+    "data/interim/documents/full_universe_item1a_manifest.csv": "883feb13ceddc4dd2b8c45735c2e6af1229da57ec2ed886acea409620652f661",
+    "data/raw/universe/sp500.csv": "e9e27949bd505d7d2d7febf9a244adf23112c7756c4b50b863d57149bcdf6077",
+    "data/raw/universe/sp500.metadata.json": "6aa1271b47d1f002cb4fb065e32b48180ebd90bf2f03feb8b427e6587471eecd",
+    "data/raw/universe/sp400.csv": "7d0830bf2ffbe52ac379d7cdef01c44fb21eabeb2a7f4f23e2718c55ac5c3c02",
+    "data/raw/universe/sp400.metadata.json": "93fc2652585e240bfdb0f79881c6934c9ff3eaeeb5642aa2227040a6f28d480c",
+    "data/raw/universe/sp600.csv": "71e88259767a30db1920c52be5f4f1c33e6d06b23523b8dda3c6408e17e0e319",
+    "data/raw/universe/sp600.metadata.json": "0f5a15323ba8f8df7f5a8c12898f63a46f75a1a8126c8e6413f2e6064e95b28e",
+    "outputs/reports/fullsample_v3_20261025/delivery_manifest.json": "223f4ad22bb1221d1273026d03e3cb95c89c79101cf3908aaab60e7489eaa7d0",
+    "outputs/reports/fullsample_v3_20261025/independent_delivery_qa.json": "65920c2c1478a353eb0d46c113cada2d44f264bbebcc6fca1df9c4a5830b6079"
+  },
+  "code_sha256": {
+    "src/ai_restrictions/industry_target_composition.py": "fe5e48be4af0a5376dc0560b65e6fdca6bc87ab1893bbf73ae4a34506d2afa05",
+    "scripts/68_analyze_industry_within_disclosure.py": "95182ecff740602560044bbf399f4c7fe24930e8094da2e32b04cf4baa58fcbb",
+    "scripts/69_verify_industry_within_disclosure.py": "c3551fd6f2f0026efcdc384d40215629e2675dd7695a46a058a36e6308bf210b",
+    "src/ai_restrictions/firm_size_disclosure.py": "b42129c34a29973167772bcb12ee0b341554cbcf822e641332fad576bcdcfc61",
+    "src/ai_restrictions/sampling.py": "a87c5bcff1c257d2eefcdeb1c37d5baef59ef4180a4b8840b101d83f53f20c80",
+    "src/ai_restrictions/governance_orientation_descriptive.py": "5ec4ba45175933306c2a1333889932c004568ea5fceec89af3ed887e7e12a3cc",
+    "src/ai_restrictions/governance_purpose_inductive_visualization.py": "aae152257fe9096c644c95b2708eb2b2520b6b14b5ae8b463601327acb737bd5",
+    "src/ai_restrictions/combined_governance_trends.py": "bc3f5c176708715d04d1a970849cb1d6bd512953c9ba6b6d2a10c0a2db07c52b",
+    "src/ai_restrictions/governance_adoption_dynamics.py": "90749dcfc16860718de45f3f920935f87be159e4e8aab384be670c09e8290a29",
+    "src/ai_restrictions/governance_visualization.py": "2180537d962e1aa11297fd1c893b1f9d4565f25870f20da4ba11a9ea02dd32d0"
+  },
+  "output_sha256": {
+    "annual_classification_coverage.csv": "29b0955202e3903fd5802a5323dbf624bccc46b58b4bb266ddd3aad5af3a95f0",
+    "annual_industry_composition.csv": "8f267eaeba486a16e42f5263cb632ff834167f1b14e21aecfe7496812b6cbfba",
+    "figure01_governance_positive_industry_composition.png": "e040ea0e29f72ddb10f74ebfe4cfe739440b0af89a0dac60dc6425efba8e30e5",
+    "figure02_pro_ai_industry_composition.png": "58fd059a87c4cc4cf0b0b420d216fc05e7133281c6f7138c657f30da00abf29e",
+    "gics_sector_mapping.csv": "5fea4c2081b9416c27433f282fb413cf0a4a7ddfe7b109efbf12aad7a5052c2a",
+    "qa.json": "2b28de6fe14a5e3a25f61aff3cd45ea237d686b7d214a6f8e26bab46fa866b23",
+    "report.md": "849cb8d1eb13aea3476ec7e48c4ef21ec250551be5547005998011e21e8b96ad",
+    "visual_qa.json": "e8e4932f222bc7b58ab765c2d6ce0d0cc0bf084dc5ec70a42ef21c92188f1b0c",
+    "within_sector_positive_rates.csv": "94dc58f45830f2fc88ac00d6ea7b64cc8ec51a2660bd3e675c53a11df77d1452",
+    "independent_validation.json": "8ef1bee86f96c36605045a1c1ced9e8153b11649c4bd056af0e10c5d5099e90c"
+  },
+  "output_ownership": "Requested final research figures, summary CSV tables, report and audit artifacts; no new source or interim data",
+  "sector_timing": "Fixed 2026-09-19 retrieval snapshot applied to all fiscal years; source effective date unspecified",
+  "sector_code_reference": {
+    "url": "https://www.spglobal.com/spdji/en/landing/topic/gics/",
+    "checked_date": "2026-10-28",
+    "company_labels_reacquired": false
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "runtime_executable": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\.venv\\Scripts\\python.exe",
+  "llm_calls": 0
+}

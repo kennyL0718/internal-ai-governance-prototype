@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": {
+    "target_keys_unique": true,
+    "section_keys_unique": true,
+    "panel_keys_unique": true,
+    "exclusion_keys_unique": true,
+    "target_partition_exact": true,
+    "section_universe_exact": true,
+    "classification_fields_binary_or_blank": true,
+    "all_valid_sections_binary": true,
+    "valid_text_not_excluded": true,
+    "excluded_double_unavailable_only": true,
+    "observed_section_OR_exact": true,
+    "annual_counts_and_rates_exact": true,
+    "original_item1a_bytes_preserved": true,
+    "credential_absent_from_bundle": true
+  },
+  "credential_match_paths": [],
+  "target_n": 9000,
+  "eligible_n": 8500,
+  "excluded_n": 500,
+  "positive_n": 303,
+  "negative_n": 8197,
+  "chapters_classified_n": 16222
+}

@@ -1,0 +1,10 @@
+{
+  "passed": 42,
+  "framework": "pytest",
+  "test_files": [
+    "tests/test_governance_v2.py",
+    "tests/test_governance_v2_recovery.py",
+    "tests/test_deepseek_client.py",
+    "tests/test_item7_governance.py"
+  ]
+}

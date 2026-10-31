@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-28T10:07:01.263348+00:00",
+  "independent_raw_source_recomputation": true,
+  "annual_cells_checked": 99,
+  "pooled_cells_checked": 33,
+  "changes_checked": 33,
+  "marginal_rows_checked": 60,
+  "source_hashes_unchanged": true,
+  "all_csv_statistics_match": true,
+  "plot_values_and_scales_match": true,
+  "images": {
+    "figure1_annual_positive_rate.png": {
+      "width": 5340,
+      "height": 3240,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "figure2_rate_change_2023_2025.png": {
+      "width": 3240,
+      "height": 3180,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "figure3_pooled_positive_rate.png": {
+      "width": 3240,
+      "height": 3180,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  "common_valid_firms_n": 1413,
+  "llm_calls": 0,
+  "downloads": 0
+}

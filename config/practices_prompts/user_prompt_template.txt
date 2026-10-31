@@ -1,0 +1,3 @@
+FROZEN CODEBOOK: {codebook_json}
+EVIDENCE UNIT: {evidence_unit_json}
+Return the required JSON for this evidence_id.

@@ -1,0 +1,29 @@
+﻿original_record_number,request_id,status,timestamp_utc,cik,ticker,fiscal_year,section,stage,evidence_or_batch_id,prompt_version,attempt,validation_request,payload_sha256,error
+2,0000004962_FY2020__1,failure,2026-10-18T07:40:13.487249+00:00,,,,,open,0000004962_FY2020,,0,,,URLError
+4,0000004962_FY2020__1,failure,2026-10-18T07:40:15.488753+00:00,,,,,open,0000004962_FY2020,,1,,,URLError
+6,0000004962_FY2020__1,failure,2026-10-18T07:40:19.495807+00:00,,,,,open,0000004962_FY2020,,2,,,URLError
+8,0000004962_FY2020__1,failure,2026-10-18T07:40:27.499253+00:00,,,,,open,0000004962_FY2020,,3,,,URLError
+9,0000004962_FY2020__1,validation_or_transport_failure,2026-10-18T07:40:27.500252+00:00,,,,,open,0000004962_FY2020,,,,,RuntimeError: DeepSeek request or structured JSON parsing failed
+11,0000004962_FY2020__2,failure,2026-10-18T07:40:27.526722+00:00,,,,,open,0000004962_FY2020,,0,,,URLError
+13,0000004962_FY2020__2,failure,2026-10-18T07:40:29.528303+00:00,,,,,open,0000004962_FY2020,,1,,,URLError
+15,0000004962_FY2020__2,failure,2026-10-18T07:40:33.531653+00:00,,,,,open,0000004962_FY2020,,2,,,URLError
+17,0000004962_FY2020__2,failure,2026-10-18T07:40:41.534673+00:00,,,,,open,0000004962_FY2020,,3,,,URLError
+18,0000004962_FY2020__2,validation_or_transport_failure,2026-10-18T07:40:41.534673+00:00,,,,,open,0000004962_FY2020,,,,,RuntimeError: DeepSeek request or structured JSON parsing failed
+169,0001582961_FY2023__1,validation_or_transport_failure,2026-10-18T07:47:06.481923+00:00,,,,,open,0001582961_FY2023,,,,,"ValueError: Quote not exact in supplied source context for 0001582961_FY2023_item1a_E02: 'property, competitive information we may collect or process, and customer information, are protected'"
+174,codebook_draft__1,failure,2026-10-18T07:47:49.895221+00:00,,,,,synthesis,codebook_draft,,0,,,HTTP 400
+175,codebook_draft__1,validation_or_transport_failure,2026-10-18T07:47:49.895935+00:00,,,,,synthesis,codebook_draft,,,,,RuntimeError: DeepSeek HTTP 400
+178,codebook_draft__2,failure,2026-10-18T07:49:12.286358+00:00,,,,,synthesis,codebook_draft,,0,,,ValueError
+181,codebook_draft__2,failure,2026-10-18T07:50:28.473897+00:00,,,,,synthesis,codebook_draft,,1,,,ValueError
+348,0000354190_FY2024_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:05:18.041838+00:00,,,,,closed,0000354190_FY2024_item1a_E01,,,,,ValueError: Emerging motive or vision must retain Uncertain status
+486,0000104918_FY2025_item7_E01__1,failure,2026-10-18T08:06:21.259612+00:00,,,,,closed,0000104918_FY2025_item7_E01,,0,,,ValueError
+544,0001467623_FY2024_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:06:44.897679+00:00,,,,,closed,0001467623_FY2024_item1a_E01,,,,,ValueError: No implemented practice; review required
+572,0000890564_FY2024_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:07:02.694182+00:00,,,,,closed,0000890564_FY2024_item1a_E01,,,,,ValueError: Missing explicitness
+612,0001582961_FY2023_item1a_E02__1,validation_or_transport_failure,2026-10-18T08:07:21.306060+00:00,,,,,closed,0001582961_FY2023_item1a_E02,,,,,"ValueError: Quote not exact in supplied source context for 0001582961_FY2023_item1a_E02: 'our assets, including intellectual property, competitive information, personal information we may co'"
+655,0000035527_FY2025_item7_E02__1,validation_or_transport_failure,2026-10-18T08:07:46.760163+00:00,,,,,closed,0000035527_FY2025_item7_E02,,,,,ValueError: No implemented practice; review required
+812,0000793952_FY2023_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:09:10.634599+00:00,,,,,closed,0000793952_FY2023_item1a_E01,,,,,"ValueError: Quote not exact in supplied source context for 0000793952_FY2023_item1a_E01: ""Company's training and enforcement of procedures\n\ngoverning the use of artificial intelligence"""
+828,0000861459_FY2025_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:09:19.400019+00:00,,,,,closed,0000861459_FY2025_item1a_E01,,,,,ValueError: Emerging motive or vision must retain Uncertain status
+850,0000096223_FY2025_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:09:35.601547+00:00,,,,,closed,0000096223_FY2025_item1a_E01,,,,,ValueError: Uncertain requires review
+947,0000855658_FY2024_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:10:26.979356+00:00,,,,,closed,0000855658_FY2024_item1a_E01,,,,,ValueError: Quote not exact in supplied source context for 0000855658_FY2024_item1a_E01: 'Use of AI tools may result in allegations or claims against us related to violation of third-party i'
+966,0000058492_FY2025_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:10:34.347948+00:00,,,,,closed,0000058492_FY2025_item1a_E01,,,,,ValueError: Quote not exact in supplied source context for 0000058492_FY2025_item1a_E01: 'We prohibit the use of unauthorized AI technologies'
+973,0001056696_FY2024_item1a_E01__1,validation_or_transport_failure,2026-10-18T08:10:36.121135+00:00,,,,,closed,0001056696_FY2024_item1a_E01,,,,,ValueError: Missing explicitness
+1177,0000073124_FY2025_item7_E02__1,failure,2026-10-18T08:12:34.703665+00:00,,,,,closed,0000073124_FY2025_item7_E02,,0,,,ValueError

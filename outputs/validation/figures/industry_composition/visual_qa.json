@@ -1,0 +1,90 @@
+{
+  "figure01_governance_positive_industry_composition": {
+    "plotted_values_equal_csv": true,
+    "annual_stacks_sum_to_100": true,
+    "annual_positive_n": [
+      35,
+      93,
+      168
+    ],
+    "sector_codes": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30",
+      "35",
+      "40",
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "colors": {
+      "10": "#8F5E47",
+      "15": "#B6A268",
+      "20": "#40876C",
+      "25": "#C87935",
+      "30": "#B7BD75",
+      "35": "#8175A5",
+      "40": "#285A7C",
+      "45": "#3E9BA5",
+      "50": "#C66D86",
+      "55": "#6C7B91",
+      "60": "#A8998E"
+    },
+    "bars_n": 3,
+    "sectors_per_bar": 11,
+    "label_threshold_pct": 5,
+    "legend_clear_of_footer": true,
+    "identical_axes_and_legend": true,
+    "text_inside_canvas": true,
+    "legend_clear_of_axis_labels": true,
+    "png_dpi": 300,
+    "axes_n": 1
+  },
+  "figure02_pro_ai_industry_composition": {
+    "plotted_values_equal_csv": true,
+    "annual_stacks_sum_to_100": true,
+    "annual_positive_n": [
+      242,
+      390,
+      611
+    ],
+    "sector_codes": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30",
+      "35",
+      "40",
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "colors": {
+      "10": "#8F5E47",
+      "15": "#B6A268",
+      "20": "#40876C",
+      "25": "#C87935",
+      "30": "#B7BD75",
+      "35": "#8175A5",
+      "40": "#285A7C",
+      "45": "#3E9BA5",
+      "50": "#C66D86",
+      "55": "#6C7B91",
+      "60": "#A8998E"
+    },
+    "bars_n": 3,
+    "sectors_per_bar": 11,
+    "label_threshold_pct": 5,
+    "legend_clear_of_footer": true,
+    "identical_axes_and_legend": true,
+    "text_inside_canvas": true,
+    "legend_clear_of_axis_labels": true,
+    "png_dpi": 300,
+    "axes_n": 1
+  }
+}

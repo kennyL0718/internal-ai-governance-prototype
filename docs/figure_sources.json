@@ -1,0 +1,92 @@
+[
+  {
+    "figure_id": "annual_positive_rate",
+    "group": "governance",
+    "prototype_png": "figures/governance/annual_positive_rate.png",
+    "original_png": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/figure1_annual_positive_rate.png",
+    "visualization_run": "implemented-internal-ai-governance-v2.0",
+    "classification_version": "implemented-internal-ai-governance-v2.0",
+    "available_formats": "png,pdf"
+  },
+  {
+    "figure_id": "positive_size_composition",
+    "group": "governance",
+    "prototype_png": "figures/governance/positive_size_composition.png",
+    "original_png": "outputs/figures/firm_size_within_disclosure_composition_v1_20261026/figure01_governance_positive_firm_size_composition.png",
+    "visualization_run": "firm_size_within_disclosure_composition_v1_20261026",
+    "classification_version": "implemented-internal-ai-governance-v2.0",
+    "available_formats": "png,pdf"
+  },
+  {
+    "figure_id": "positive_industry_composition",
+    "group": "governance",
+    "prototype_png": "figures/governance/positive_industry_composition.png",
+    "original_png": "outputs/figures/industry_within_disclosure_composition_v1_20261028/figure01_governance_positive_industry_composition.png",
+    "visualization_run": "industry_within_disclosure_composition_v1_20261028",
+    "classification_version": "implemented-internal-ai-governance-v2.0",
+    "available_formats": "png"
+  },
+  {
+    "figure_id": "size_industry_annual_positive_rate",
+    "group": "governance",
+    "prototype_png": "figures/governance/size_industry_annual_positive_rate.png",
+    "original_png": "outputs/figures/governance_size_industry_v1_20261028/figure1_annual_positive_rate.png",
+    "visualization_run": "governance_size_industry_v1_20261028",
+    "classification_version": "implemented-internal-ai-governance-v2.0",
+    "available_formats": "png"
+  },
+  {
+    "figure_id": "size_industry_change_2023_2025",
+    "group": "governance",
+    "prototype_png": "figures/governance/size_industry_change_2023_2025.png",
+    "original_png": "outputs/figures/governance_size_industry_v1_20261028/figure2_rate_change_2023_2025.png",
+    "visualization_run": "governance_size_industry_v1_20261028",
+    "classification_version": "implemented-internal-ai-governance-v2.0",
+    "available_formats": "png"
+  },
+  {
+    "figure_id": "size_industry_pooled_positive_rate",
+    "group": "governance",
+    "prototype_png": "figures/governance/size_industry_pooled_positive_rate.png",
+    "original_png": "outputs/figures/governance_size_industry_v1_20261028/figure3_pooled_positive_rate.png",
+    "visualization_run": "governance_size_industry_v1_20261028",
+    "classification_version": "implemented-internal-ai-governance-v2.0",
+    "available_formats": "png"
+  },
+  {
+    "figure_id": "practice_distribution",
+    "group": "practices",
+    "prototype_png": "figures/practices/practice_distribution.png",
+    "original_png": "outputs/implemented_ai_governance_content_analysis/figures/01_practices_frequency.png",
+    "visualization_run": "implemented-ai-governance-content-v1-20261018",
+    "classification_version": "implemented-ai-governance-content-v1.0",
+    "available_formats": "png,pdf"
+  },
+  {
+    "figure_id": "practice_annual_prevalence",
+    "group": "practices",
+    "prototype_png": "figures/practices/practice_annual_prevalence.png",
+    "original_png": "outputs/implemented_ai_governance_content_analysis/figures/04_practices_by_year.png",
+    "visualization_run": "implemented-ai-governance-content-v1-20261018",
+    "classification_version": "implemented-ai-governance-content-v1.0",
+    "available_formats": "png,pdf"
+  },
+  {
+    "figure_id": "practice_annual_assignment_share",
+    "group": "practices",
+    "prototype_png": "figures/practices/practice_annual_assignment_share.png",
+    "original_png": "outputs/figures/governance_practices_v1_20261018_visualization_20261026/annual_governance_practices_composition_share.png",
+    "visualization_run": "implemented-ai-governance-content-v1-20261018",
+    "classification_version": "implemented-ai-governance-content-v1.0",
+    "available_formats": "png,pdf"
+  },
+  {
+    "figure_id": "practice_annual_assignment_count",
+    "group": "practices",
+    "prototype_png": "figures/practices/practice_annual_assignment_count.png",
+    "original_png": "outputs/figures/governance_practices_v1_20261018_visualization_20261026/annual_governance_practices_composition_count.png",
+    "visualization_run": "implemented-ai-governance-content-v1-20261018",
+    "classification_version": "implemented-ai-governance-content-v1.0",
+    "available_formats": "png,pdf"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "before_sha256": "15490a1eb601d4fc51c1696fab649dd3b9f2a5750e96c9d7a1071514fd67b64b",
+  "after_sha256": "eb145750b1b3169aa1c372395d1810cbe0ff9008175325f261bd39b58753a698",
+  "changes": [
+    "P01/P06: distinguish policy existence from substantive permissible-use rule content; policy naming alone is not two themes.",
+    "P03/P05: remove contradictory exclusion of concrete model-risk approval gates; regime plus distinct gate can be multi-labeled.",
+    "M08/M09: separate general risk mitigation from explicit opportunity/value drivers already present in two exploration firms.",
+    "V01/V09: separate normative responsible AI outcomes from general risk-control outcomes; both are substantively important to the research question.",
+    "V04/V06: external legal/regulatory/ethical standards versus internal policy adherence; no duplicate coding of internal compliance alone."
+  ],
+  "performed_by": "research assistant; no independent human reliability study",
+  "scope": "inductive exploration evidence only; before full-sample coding",
+  "time_utc": "2026-10-18T08:01:46.820793+00:00"
+}

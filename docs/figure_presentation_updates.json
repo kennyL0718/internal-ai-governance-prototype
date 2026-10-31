@@ -1,0 +1,170 @@
+{
+  "run_id": "proposal_academic_v1_20261030",
+  "updated_date": "2026-10-30",
+  "scope": "Four academic presentation panels; no classification or statistical data changes",
+  "source_figures_root": "outputs/figures/proposal_academic_v1_20261030",
+  "figures": [
+    {
+      "figure_id": "annual_positive_rate",
+      "group": "governance",
+      "slug": "implementation/figure1_annual_positive_rate",
+      "function": "annual_rate_figure",
+      "code": "src/ai_restrictions/proposal_figure_presentation.py",
+      "spec": {
+        "code": "src/visualization/academic_presentation.py::annual_rate_figure",
+        "original_code": "src/ai_restrictions/proposal_figure_presentation.py::annual_rate_figure"
+      },
+      "prototype_png": "figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png",
+      "original_png": "outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png",
+      "visualization_run": "proposal_academic_v1_20261030",
+      "classification_version": "implemented-internal-ai-governance-v2.0",
+      "available_formats": "png,pdf"
+    },
+    {
+      "figure_id": "size_industry_annual_positive_rate",
+      "group": "governance",
+      "slug": "size_industry/figure1_annual_positive_rate",
+      "function": "academic_annual_heatmap",
+      "code": "src/ai_restrictions/governance_size_industry.py",
+      "spec": {
+        "code": "src/visualization/academic_presentation.py::academic_annual_heatmap",
+        "original_code": "src/ai_restrictions/governance_size_industry.py::academic_annual_heatmap"
+      },
+      "prototype_png": "figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png",
+      "original_png": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png",
+      "visualization_run": "proposal_academic_v1_20261030",
+      "classification_version": "implemented-internal-ai-governance-v2.0",
+      "available_formats": "png,pdf"
+    },
+    {
+      "figure_id": "practice_annual_assignment_share",
+      "group": "practices",
+      "slug": "practices/annual_governance_practices_composition_share",
+      "function": "academic_pies",
+      "code": "src/ai_restrictions/governance_practices_visualization.py",
+      "spec": {
+        "years": "FY2023-FY2025",
+        "denominator": "Annual sum of distinct firm-year-Practice assignments over all 12 categories: 54, 135, 262",
+        "sample": "296 Governance-Positive firm-years; 274 with a Practice; 451 assignments across the three displayed years; original full-period totals are 303 Positive firm-years and 467 assignments",
+        "code": "src/visualization/academic_presentation.py::academic_pies",
+        "original_code": "src/ai_restrictions/governance_practices_visualization.py::academic_pies"
+      },
+      "prototype_png": "figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png",
+      "original_png": "outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png",
+      "visualization_run": "proposal_academic_v1_20261030",
+      "classification_version": "implemented-ai-governance-content-v1.0",
+      "available_formats": "png,pdf"
+    },
+    {
+      "figure_id": "size_industry_exclusion_comparison",
+      "group": "governance",
+      "slug": "size_industry/figure2b_size_sector_exclusion",
+      "function": "academic_exclusion_bars",
+      "code": "src/ai_restrictions/governance_size_industry.py",
+      "spec": {
+        "title": "Size-category governance rates with Financials and Information Technology excluded",
+        "years": "FY2023-FY2025 pooled",
+        "statistic": "Pooled valid firm-year Positive rate (%)",
+        "numerator": "Sum of Governance-Positive firm-years within each size group and sector restriction",
+        "denominator": "Sum of valid classified firm-years within the same size group and sector restriction",
+        "sample": "All sectors compared with the same population excluding Financials and Information Technology; fixed 2026-09-19 index/GICS snapshot; firms may contribute up to three observations",
+        "data": "outputs/summary_statistics/governance/size_industry/pooled_statistics.csv",
+        "code": "src/visualization/academic_presentation.py::academic_exclusion_bars",
+        "original_code": "src/ai_restrictions/governance_size_industry.py::academic_exclusion_bars"
+      },
+      "prototype_png": "figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png",
+      "original_png": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png",
+      "visualization_run": "proposal_academic_v1_20261030",
+      "classification_version": "implemented-internal-ai-governance-v2.0",
+      "available_formats": "png,pdf"
+    }
+  ],
+  "copied_assets": [
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png",
+      "sha256": "e83f5a41082e426fdff3508117ce6b4a30781ef49e9177562fed551e935dc209",
+      "classification_version": "implemented-internal-ai-governance-v2.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.pdf",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.pdf",
+      "sha256": "cfb257795c768dc7a5f79276d3365fbd82bb285de14d294d1e92300716248bc0",
+      "classification_version": "implemented-internal-ai-governance-v2.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png",
+      "sha256": "5957c431c97e7ee4f4fce5fc4e1bfc47ca4e79fb51310abddef3ddd8deb9a544",
+      "classification_version": "implemented-internal-ai-governance-v2.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.pdf",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.pdf",
+      "sha256": "b108b8859e835ae76425f2c702ee8b283da167600d686598331f11a449d300ed",
+      "classification_version": "implemented-internal-ai-governance-v2.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png",
+      "sha256": "0130cda99eef8768d49f17423042c2523ccb4801b63adc9e4db38cc6c1c4f320",
+      "classification_version": "implemented-ai-governance-content-v1.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.pdf",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.pdf",
+      "sha256": "83a342858d55e8f6b7558701eb351adb0845f8e7aa6f6934b7b2b46fe7975229",
+      "classification_version": "implemented-ai-governance-content-v1.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png",
+      "sha256": "6c1fd4559c0e68503d5e1d45a43082e5d2c395244e1dd1a066d5a995faee9252",
+      "classification_version": "implemented-internal-ai-governance-v2.0"
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.pdf",
+      "original_relative_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.pdf",
+      "sha256": "7fa9d9a94b4dd9d861107a43f6aa598c2018f8d0d5dacb4551e3cb719f008046",
+      "classification_version": "implemented-internal-ai-governance-v2.0"
+    }
+  ],
+  "source_notes_sha256": "77aaa5614658bd4ca3def31925128974dee7e4d32074dc1208bf762ce1d6578e",
+  "source_notes_path": "proposal_figure_notes.md",
+  "source_notes_original_text": "# Proposal Figure Notes\n\nThese notes accompany versioned academic presentation exports. Existing proposal Markdown and sealed exploratory figures are preserved. Entries are identified by their filenames and directories; captions have no fixed figure numbers. PNG files are 300 dpi, and PDF files are vector exports with embedded fonts.\n\n## implementation/figure1_annual_positive_rate.png\n\n**Suggested caption:** Annual prevalence of disclosed implemented internal AI governance, FY2020–FY2025.\n\n**Files:** [PNG](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png) · [PDF](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.pdf) · [original exploratory PNG](ai-restrictions-concerns/outputs/full_universe_implemented_internal_ai_governance_v2/figures/figure1_annual_positive_rate.png).\n\n**Data and period.** [Governance v2 firm-year panel](ai-restrictions-concerns/outputs/full_universe_implemented_internal_ai_governance_v2/combined_firm_year_v2_panel.csv) and [annual control table](ai-restrictions-concerns/outputs/full_universe_implemented_internal_ai_governance_v2/annual_trend_summary.csv), FY2020–FY2025; version `implemented-internal-ai-governance-v2.0`.\n\n**Measurement and aggregation.** The annual rate is positive firm-years divided by valid binary firm-years. Each CIK × fiscal year is counted once across Item 1A and Item 7. At least one available, successfully classified section is required. A positive section yields a positive firm-year; one observed negative section with the other unavailable remains negative under the original observed-section OR estimator. Double-unavailable observations and missing CIK records remain excluded, with no imputation.\n\n| Fiscal year | Valid firm-years | Positive firm-years | Rate | Excluded frame observations |\n|---|---:|---:|---:|---:|\n| FY2020 | 1,337 | 2 | 0.15% | 163 |\n| FY2021 | 1,394 | 2 | 0.14% | 106 |\n| FY2022 | 1,409 | 3 | 0.21% | 91 |\n| FY2023 | 1,441 | 35 | 2.43% | 59 |\n| FY2024 | 1,458 | 93 | 6.38% | 42 |\n| FY2025 | 1,461 | 168 | 11.50% | 39 |\n\n**Validation.** The saved binary panel, annual table and sealed delivery hashes reconcile. These are automated disclosure classifications; independent human semantic validation remains pending. The figure does not identify actual first implementation dates or governance effectiveness.\n\n**Original explanatory wording transferred from the image:**\n\n> Positive Rate = Positive N / Eligible N; Eligible: at least one valid section. Observed-section OR estimate.\n\n## practices/annual_governance_practices_composition_share.png\n\n**Suggested caption:** Composition of disclosed internal AI governance practices, FY2023–FY2025.\n\n**Files:** [PNG](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png) · [PDF](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.pdf) · [original exploratory PNG](ai-restrictions-concerns/outputs/figures/governance_practices_v1_20261018_visualization_20261026/annual_governance_practices_composition_share.png).\n\n**Data and period.** [Practice firm-year panel](ai-restrictions-concerns/outputs/implemented_ai_governance_content_analysis/firm_year_content_panel.csv), [category statistics](ai-restrictions-concerns/outputs/implemented_ai_governance_content_analysis/category_statistics.csv), frozen [P01–P12 codebook](ai-restrictions-concerns/outputs/implemented_ai_governance_content_analysis/codebook.md), and source-linked `evidence_level_coding.csv` / `assigned_category_quotes.csv` in the same classification directory. Source run: `implemented-ai-governance-content-v1-20261018`. The displayed sample is restricted to FY2023–FY2025. The existing data loader, taxonomy and counting rules are unchanged.\n\n**Measurement and denominators.** Practices are multi-label. A practice assignment is a distinct CIK × fiscal year × practice combination with an existing eligible, source-supported category label. Repeated quotations and support in both Item 1A and Item 7 count once for that practice in the firm-year. For category k and year t, n(k,t) is its distinct firm-year count; A(t) = Σk n(k,t). Each pie reports n(k,t)/A(t). These shares sum to 100% across assignments and differ from n(k,t)/N(t), the prevalence among governance-positive firm-years. A firm-year can contribute several assignments. Unobserved or unresolved categories are not imputed, and firm-years without practice labels do not contribute assignments.\n\n| Fiscal year | Governance-positive firm-years | Firm-years with ≥1 practice | Practice assignments, n |\n|---|---:|---:|---:|\n| FY2023 | 35 | 32 | 54 |\n| FY2024 | 93 | 86 | 135 |\n| FY2025 | 168 | 156 | 262 |\n\n**Reconciliation of sample windows.** The original stacked chart covered FY2020–FY2025. Its full-period totals are retained below with explicit scope; they are not totals for the three displayed pies.\n\n| Sample period | Governance-positive firm-years | Firm-years with ≥1 practice | Practice assignments |\n|---|---:|---:|---:|\n| FY2020–FY2025 (original) | 303 | 281 | 467 |\n| FY2023–FY2025 (displayed) | 296 | 274 | 451 |\n| FY2020–FY2022 (omitted from pies) | 7 | 7 | 16 |\n\n**Category composition.** The original category names and fixed colors are retained. Zero-count categories remain in the shared legend. Internal percentages are shown for slices of at least 6.7%; smaller slices remain visible and are quantified here. Percentages below are rounded independently.\n\n| Practice | FY2023 assignments / share | FY2024 assignments / share | FY2025 assignments / share |\n|---|---:|---:|---:|\n| P01 AI governance frameworks, policies, and procedures | 17 / 31.5% | 60 / 44.4% | 117 / 44.7% |\n| P04 AI/ML testing, validation, and risk assessment | 8 / 14.8% | 15 / 11.1% | 22 / 8.4% |\n| P03 AI use-case review and approval gatekeeping | 7 / 13.0% | 14 / 10.4% | 23 / 8.8% |\n| P09 Ongoing AI monitoring, enforcement, and reporting | 7 / 13.0% | 12 / 8.9% | 24 / 9.2% |\n| P08 Workforce AI training and awareness | 5 / 9.3% | 12 / 8.9% | 18 / 6.9% |\n| P02 Cross-functional AI governance bodies and committees | 3 / 5.6% | 7 / 5.2% | 19 / 7.3% |\n| P06 Permissible-use rules and third-party contractual restrictions | 3 / 5.6% | 7 / 5.2% | 16 / 6.1% |\n| P05 Model risk management regime for AI/ML models | 2 / 3.7% | 3 / 2.2% | 5 / 1.9% |\n| P07 Technical AI access and data-security controls | 1 / 1.9% | 3 / 2.2% | 9 / 3.4% |\n| P12 AI regulatory monitoring and adaptation | 0 / 0.0% | 2 / 1.5% | 4 / 1.5% |\n| P10 Human oversight and expert-in-the-loop review | 0 / 0.0% | 0 / 0.0% | 5 / 1.9% |\n| P11 AI operational pause, safety review, and incident investigation | 1 / 1.9% | 0 / 0.0% | 0 / 0.0% |\n\n**Validation status.** Existing technical/source/aggregation QA is reused: successful non-uncodable evidence, nonempty original quotations, matching TXT hashes and offsets, context inclusion, and equality of evidence assignments, firm-year labels and master statistics. The loader verifies 606 practice evidence labels, 284 supporting TXT files and 84 all-period/annual master-statistic cells. There is no independent Practice-level semantic QA or human validation. Existing model-review flags remain under the original reporting policy: 23 assignments across FY2020–FY2025 have only flagged evidence; the original evidence review queue contains 134 records and 0 completed human reviews. These full-period QA totals are not presented as FY2023–FY2025-only counts. No new labels or human decisions were created.\n\n**Original explanatory wording transferred from the image:**\n\n> Composition denominator: annual A = sum of validated firm-year–practice assignments; multi-label.\n\n> Total: 467 assignments across 303 governance-Positive firm-years (Item 1A / Item 7). One count per firm-year per practice; all 12 categories retained.\n\n> Shaded FY2020–FY2022: only 2–3 Positive firm-years/year; composition is unstable. Assignment shares differ from firm-year prevalence.\n\n> QA: source quotes and aggregation verified; automated disclosure labels; human semantic review pending.\n\n## size_industry/figure1_annual_positive_rate.png\n\n**Suggested caption:** Annual prevalence of disclosed internal AI governance by market-cap category and GICS sector, FY2023–FY2025.\n\n**Files:** [PNG](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png) · [PDF](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.pdf) · [original exploratory PNG](ai-restrictions-concerns/outputs/figures/governance_size_industry_v1_20261028/figure1_annual_positive_rate.png).\n\n**Data and period.** [Annual size × sector statistics](ai-restrictions-concerns/outputs/tables/governance_size_industry_v1_20261028/year_size_sector_statistics.csv) and [row-level observation audit](ai-restrictions-concerns/data/interim/panels/governance_size_industry_v1_20261028/observation_audit.csv), linked to the authoritative [Governance v2 panel](ai-restrictions-concerns/outputs/full_universe_implemented_internal_ai_governance_v2/combined_firm_year_v2_panel.csv), FY2023–FY2025. All 99 year × size × sector cells are preserved.\n\n**Measurement and aggregation.** Each cell reports positive CIK × fiscal-year observations / valid binary CIK × fiscal-year observations. The observed-section OR rule is unchanged. Missing classifications are excluded rather than filled. Large, Mid and Small denote S&P 500, S&P MidCap 400 and S&P SmallCap 600 membership. Size and GICS sectors use the fixed September 19, 2026 snapshot for every fiscal year, with retrospective membership and survivor-selection limitations.\n\n**Retained data annotations.** Each year is identified above its panel together with its original overall positive/valid count and rate. Cell numerators, denominators, rates and sparsity marks are unchanged. All years retain the original common 0–35% color scale. Hatching and * mark cells with fewer than 20 valid firm-years; † marks fewer than five positive observations, including observed zeros. NA is reserved for cells without valid observations. These marks have no statistical-significance interpretation.\n\n**Validation.** Annual cells are recomputed with the unchanged `load_analysis()`, `cell_statistics()` and `metrics()` functions, reconciled to the saved statistics and original color-scale matrices. Labels remain automated classifications of observed disclosure; independent human semantic validation is pending.\n\n**Original explanatory wording transferred from the image:**\n\n> Cell: Positive Rate (%) and Positive N / Total N. All years share the same color scale.\n\n> * / hatching: Total N < 20.  †: Positive N < 5, including observed zeros.  NA: no valid firm-years.\n\n> Denominator: valid binary firm-year labels within each cell. Fixed size / GICS snapshot: 19 Sep 2026.\n\n> Governance v2 model classifications of observed disclosure; human semantic validation pending.\n\n## size_industry/figure2b_size_sector_exclusion.png\n\n**Suggested caption:** Pooled prevalence of disclosed internal AI governance by market-cap category, with and without Financials and Information Technology, FY2023–FY2025.\n\n**Files:** [PNG](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png) · [PDF](ai-restrictions-concerns/outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.pdf) · [original exploratory PNG](ai-restrictions-concerns/outputs/figures/proposal_briefing_completion_20261030/figure2b_size_sector_exclusion.png).\n\n**Data and period.** The same [size × sector observation audit](ai-restrictions-concerns/data/interim/panels/governance_size_industry_v1_20261028/observation_audit.csv) and [pooled cell statistics](ai-restrictions-concerns/outputs/tables/governance_size_industry_v1_20261028/pooled_statistics.csv), linked to the authoritative [Governance v2 panel](ai-restrictions-concerns/outputs/full_universe_implemented_internal_ai_governance_v2/combined_firm_year_v2_panel.csv), pooled FY2023–FY2025.\n\n**Measurement and restrictions.** Each bar is the sum of positive firm-years divided by the sum of valid firm-years, with one count per CIK × fiscal year. Companies may contribute up to three observations; bars do not represent independent company counts or arithmetic means of annual rates. The restricted bars exclude Financials and Information Technology from both numerator and denominator. Large, Mid and Small map to S&P 500, S&P MidCap 400 and S&P SmallCap 600 using the fixed September 19, 2026 membership/GICS snapshot. Missing classifications remain excluded.\n\n**Preserved values.** All-industry counts are 135/1,448, 76/1,166 and 85/1,746; restricted counts are 54/1,022, 41/836 and 57/1,203, in Large/Mid/Small order. The corresponding restricted rates remain 5.28%, 4.90% and 4.74%. The original grouped-bar type and all six value annotations are retained.\n\n**Validation.** The unchanged `metrics()` function reproduces the original comparison audit. Underlying results remain automated disclosure classifications with independent human semantic validation pending.\n\n**Original explanatory wording transferred from the image:**\n\n> FY2023–FY2025 pooled firm-years: all industries and excluding Financials / Information Technology\n\n> Rate = pooled Positive N / pooled valid binary firm-years; labels show Positive N / valid N.\n\n> Each CIK × fiscal year is counted once; firms may contribute up to three observations. Missing classifications are excluded.\n\n> Fixed index-membership / GICS snapshot: 19 Sep 2026. Governance v2 disclosure labels; human semantic validation pending.\n\n## Reproduction and preservation\n\nFrom the project root: `.venv/Scripts/python.exe -B scripts/73_plot_proposal_figures.py`. Add `--overwrite` to regenerate only this versioned presentation bundle and its notes. The entry point reuses the original classification/evidence loaders and size metrics. It writes four PNG/PDF pairs, these external notes and presentation QA. Existing proposal Markdown, classification files, statistical tables and exploratory figure files remain unchanged. Original processing and exploratory plotting functions are checked against their saved AST hashes; new functions add presentation views only.\n",
+  "copied_definition_provenance": [
+    {
+      "function": "annual_rate_figure",
+      "source_file": "src/ai_restrictions/proposal_figure_presentation.py",
+      "source_file_sha256": "e97be20b7936ee16849ba13e94eff234f3c34a36188f4b25ee05b146fe48bde5",
+      "definition_sha256": "628dcb29f52024cb346afca83a8374957a0e6467ccf8b88624a0b10fab211f23"
+    },
+    {
+      "function": "export",
+      "source_file": "src/ai_restrictions/proposal_figure_presentation.py",
+      "source_file_sha256": "e97be20b7936ee16849ba13e94eff234f3c34a36188f4b25ee05b146fe48bde5",
+      "definition_sha256": "a9076ffca68117076c94003f1ec778019fdc5e626ec1fab4c6e04ede2f9c5095"
+    },
+    {
+      "function": "academic_pies",
+      "source_file": "src/ai_restrictions/governance_practices_visualization.py",
+      "source_file_sha256": "47bb751ea67df5e0feec069c36394398934a057defdea9e4d3a0eedcded6e1a0",
+      "definition_sha256": "3e33695f76e4110d1f2bbf91507841c4e5952054a0eff653b0d6bfb0cb32b5b3"
+    },
+    {
+      "function": "academic_annual_heatmap",
+      "source_file": "src/ai_restrictions/governance_size_industry.py",
+      "source_file_sha256": "d2593db516ab01723ec6167e888222ddf1036ee595b53f447e1356d986e9dc27",
+      "definition_sha256": "b2930eda106e02a9933a91b3f1bac40cf6e15f674b8316c1c10be50431b43f20"
+    },
+    {
+      "function": "academic_exclusion_bars",
+      "source_file": "src/ai_restrictions/governance_size_industry.py",
+      "source_file_sha256": "d2593db516ab01723ec6167e888222ddf1036ee595b53f447e1356d986e9dc27",
+      "definition_sha256": "8327ecb34a8f7d5a7a91bc884683e3c7954d63fe41992f26c094e8887c50ff83"
+    }
+  ],
+  "source_classification_results_unchanged": true,
+  "preserved_original_figure_registry": "docs/figure_sources.json",
+  "previous_delivery_manifest": "docs/provenance/proposal_presentation_update_20261030/previous_delivery_manifest.json"
+}

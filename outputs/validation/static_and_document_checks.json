@@ -1,0 +1,10 @@
+{
+  "python_files_parsed": 44,
+  "syntax_failures": [],
+  "new_document_links_checked": 24,
+  "broken_existing_document_links": [],
+  "pending_finalizer_generated_index_links": [
+    "docs/source_manifest.csv"
+  ],
+  "finalization_note": "Final document-link existence is checked after source_manifest.csv is generated. Historical archived documents retain original paths."
+}

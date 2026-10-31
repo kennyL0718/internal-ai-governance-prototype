@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "frame_n": 9000,
+  "frame_firms_n": 1500,
+  "nonempty_cik_fy_n": 8994,
+  "missing_cik_fy_n": 6,
+  "duplicate_cik_fy_n": 0,
+  "unmatched_cik_fy_n": 0,
+  "sector_mapping_coverage": 1.0,
+  "missing_or_unknown_sector_n": 0,
+  "orientation_frame_sector_conflicts_n": 0,
+  "fixed_sector_across_years": true,
+  "source_seals_verified": true,
+  "independent_task_denominators": true,
+  "orientation_denominator_includes_no_ai_discussion": true,
+  "no_section_double_count": true,
+  "summary_reconciliation_passed": true,
+  "annual_composition_rows": 66,
+  "within_sector_rate_rows": 33,
+  "coverage_rows": 12,
+  "source_versions": {
+    "governance": "implemented-internal-ai-governance-v2.0",
+    "orientation": "fullsample_v3_20261025"
+  },
+  "llm_calls": 0,
+  "company_industry_acquisition_calls": 0,
+  "human_semantic_validation": false,
+  "input_sha256_unchanged": true
+}

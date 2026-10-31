@@ -1,0 +1,12 @@
+﻿gics_sector_code,gics_sector,color,frame_firms_n,snapshot_retrieval_date,historical_time_varying,code_reference_url
+10,Energy,#8F5E47,71,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+15,Materials,#B6A268,77,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+20,Industrials,#40876C,263,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+25,Consumer Discretionary,#C87935,193,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+30,Consumer Staples,#B7BD75,75,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+35,Health Care,#8175A5,163,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+40,Financials,#285A7C,258,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+45,Information Technology,#3E9BA5,190,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+50,Communication Services,#C66D86,47,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+55,Utilities,#6C7B91,59,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/
+60,Real Estate,#A8998E,104,2026-09-19,False,https://www.spglobal.com/spdji/en/landing/topic/gics/

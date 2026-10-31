@@ -1,0 +1,33 @@
+Return a valid JSON object. Develop an INDUCTIVE codebook from the supplied successful open
+coding only. Do not classify unsampled observations. Keep practices, motivations,
+and visions separate; consolidate synonyms but preserve substantively different
+concepts and important minority themes. Do not create themes absent in the supplied
+open codes. Categories should be distinct in concept and multi-label in application.
+Use roughly 6-12 practice categories and 3-8 each motive/vision categories ONLY if
+supported; fewer are acceptable. Avoid a miscellaneous catch-all. Preserve a
+general risk mitigation category only when disclosures state a risk-control link
+without a more specific risk, and exclude it when only specific risks are stated.
+Differentiate assessment/testing, approval gatekeeping, and ongoing monitoring where
+the data supports this distinction. Code actual human validation separately only
+if it recurs; do not infer it from committees. Responsible AI policy naming alone
+does not imply a motive or vision. The codebook must explicitly handle these limits.
+Return {"derivation":"...","categories":[{"id":"P01 or M01 or V01",
+"dimension":"practices or motivations or visions","name":"English name",
+"name_zh":"Chinese name","definition":"...","inclusion":"...",
+"exclusion":"...","distinction":"distinguish closest neighboring categories",
+"examples":[{"evidence_id":"supplied id","quote":"EXACT quote from open coding"}]}],
+"consolidation_notes":["..."],"minority_theme_notes":["..."]}.
+Each category needs at least one exact representative quote, preferably two distinct
+firms if available. No unsupported conceptual expansion. IDs unique and sequential
+within each dimension. Clearly define explicit/implicit decisions and category edges.
+Research-assistant refinement after inspecting the first inductive draft: workforce
+training/awareness and ongoing monitoring/enforcement are conceptually distinct
+activities, so separate them when supported rather than combine them because they
+share one sentence. A formal model-risk regime can be retained as a meaningful
+domain-specific practice, but explicitly prevent counting the same undifferentiated
+framework statement again as generic AI policy, enterprise risk integration,
+testing and approval. Separate concrete subactivities can still be multi-labeled.
+Do not treat eight motivation/vision categories as a target. Explain why each
+minority category deserves separate treatment, and consolidate adjacent outcome
+wording when it expresses the same substantive objective. Keep motives (drivers)
+and goals (outcomes) conceptually distinct even if a purpose clause supports both.

@@ -1,0 +1,304 @@
+{
+  "audit_date": "2026-10-29",
+  "source_project": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns",
+  "checks": {
+    "governance_original_delivery_hashes": {
+      "checked": 18,
+      "mismatches": []
+    },
+    "practices_original_delivery_hashes": {
+      "checked": 81,
+      "mismatches": []
+    },
+    "valid_input_files_exist": {
+      "n": 16222,
+      "missing_paths": []
+    },
+    "current_human_review_database": {
+      "exists": false,
+      "path": "data\\interim\\human_review\\governance_content_reviews.sqlite3"
+    }
+  },
+  "issues": [
+    {
+      "id": "coverage_estimator",
+      "handling": "Retain delivered observed-section OR; 761 single-section negatives remain distinguishable by source_status; strict guideline also retained."
+    },
+    {
+      "id": "no_governance_run_id_field",
+      "handling": "Use bundle identity + prompt_version + started_at_utc; no fabricated recorded run ID."
+    },
+    {
+      "id": "historical_code_lineage",
+      "handling": "Use final delivery-hash-matched governance code in pre-20261025 backup; execution snapshot is earlier. Preserve exact historical clients separately."
+    },
+    {
+      "id": "practices_semantic_validation_pending",
+      "handling": "Latest frozen completed automated content coding; no promotion to human-validated data."
+    },
+    {
+      "id": "joint_practices_schema",
+      "handling": "Frozen three-dimension codebook/schema and native source results retained only for exact practice reproduction; public practice views contain P01-P12; later Purpose modules excluded."
+    },
+    {
+      "id": "fixed_snapshot",
+      "handling": "Size and GICS labels are 2026-09-19 retrieval snapshot applied to all fiscal years; no historical annual mapping claim."
+    }
+  ],
+  "governance": {
+    "version": "implemented-internal-ai-governance-v2.0",
+    "run_id_recorded": null,
+    "bundle_identity": "full_universe_implemented_internal_ai_governance_v2",
+    "started_at_utc": "2026-10-13T08:45:17.873118+00:00",
+    "eligible_n": 8500,
+    "excluded_n": 500,
+    "frame_n": 9000,
+    "firm_n": 1484,
+    "positive_n": 303,
+    "negative_n": 8197,
+    "source_status": {
+      "both_observed": 7722,
+      "single_section_observed": 778
+    },
+    "single_section_label_counts": {
+      "0": 761,
+      "1": 17
+    },
+    "eligible_duplicate_keys": 0,
+    "exclusion_duplicate_keys": 0,
+    "missing_cik_frame_rows": 6,
+    "valid_sections_n": 16222,
+    "unavailable_sections_n": 1778,
+    "unresolved_sections_n": 0,
+    "final_prompt_version_counts": {
+      "implemented-internal-ai-governance-v2.0": 16143,
+      "implemented-internal-ai-governance-v2.0-validation-recovery1": 56,
+      "implemented-internal-ai-governance-v2.0-validation-recovery2": 23
+    },
+    "binary_OR_mismatches": [],
+    "annual": [
+      {
+        "fiscal_year": "2020",
+        "target_n": "1500",
+        "eligible_n": "1337",
+        "excluded_n": "163",
+        "positive_n": "2",
+        "negative_n": "1335",
+        "unresolved_n": "0",
+        "positive_rate": "0.0014958863126402393",
+        "statistics_status": "complete",
+        "item1a_available_n": "1310",
+        "item7_available_n": "1242",
+        "item1a_coverage": "0.8733333333333333",
+        "item7_coverage": "0.828",
+        "item1a_positive_n": "0",
+        "item7_positive_n": "2",
+        "both_positive_n": "0",
+        "only_item1a_positive_n": "0",
+        "only_item7_positive_n": "2"
+      },
+      {
+        "fiscal_year": "2021",
+        "target_n": "1500",
+        "eligible_n": "1394",
+        "excluded_n": "106",
+        "positive_n": "2",
+        "negative_n": "1392",
+        "unresolved_n": "0",
+        "positive_rate": "0.0014347202295552368",
+        "statistics_status": "complete",
+        "item1a_available_n": "1336",
+        "item7_available_n": "1313",
+        "item1a_coverage": "0.8906666666666667",
+        "item7_coverage": "0.8753333333333333",
+        "item1a_positive_n": "0",
+        "item7_positive_n": "2",
+        "both_positive_n": "0",
+        "only_item1a_positive_n": "0",
+        "only_item7_positive_n": "2"
+      },
+      {
+        "fiscal_year": "2022",
+        "target_n": "1500",
+        "eligible_n": "1409",
+        "excluded_n": "91",
+        "positive_n": "3",
+        "negative_n": "1406",
+        "unresolved_n": "0",
+        "positive_rate": "0.0021291696238466998",
+        "statistics_status": "complete",
+        "item1a_available_n": "1346",
+        "item7_available_n": "1333",
+        "item1a_coverage": "0.8973333333333333",
+        "item7_coverage": "0.8886666666666667",
+        "item1a_positive_n": "1",
+        "item7_positive_n": "2",
+        "both_positive_n": "0",
+        "only_item1a_positive_n": "1",
+        "only_item7_positive_n": "2"
+      },
+      {
+        "fiscal_year": "2023",
+        "target_n": "1500",
+        "eligible_n": "1441",
+        "excluded_n": "59",
+        "positive_n": "35",
+        "negative_n": "1406",
+        "unresolved_n": "0",
+        "positive_rate": "0.024288688410825817",
+        "statistics_status": "complete",
+        "item1a_available_n": "1384",
+        "item7_available_n": "1367",
+        "item1a_coverage": "0.9226666666666666",
+        "item7_coverage": "0.9113333333333333",
+        "item1a_positive_n": "30",
+        "item7_positive_n": "6",
+        "both_positive_n": "1",
+        "only_item1a_positive_n": "29",
+        "only_item7_positive_n": "5"
+      },
+      {
+        "fiscal_year": "2024",
+        "target_n": "1500",
+        "eligible_n": "1458",
+        "excluded_n": "42",
+        "positive_n": "93",
+        "negative_n": "1365",
+        "unresolved_n": "0",
+        "positive_rate": "0.06378600823045268",
+        "statistics_status": "complete",
+        "item1a_available_n": "1402",
+        "item7_available_n": "1394",
+        "item1a_coverage": "0.9346666666666666",
+        "item7_coverage": "0.9293333333333333",
+        "item1a_positive_n": "85",
+        "item7_positive_n": "8",
+        "both_positive_n": "0",
+        "only_item1a_positive_n": "85",
+        "only_item7_positive_n": "8"
+      },
+      {
+        "fiscal_year": "2025",
+        "target_n": "1500",
+        "eligible_n": "1461",
+        "excluded_n": "39",
+        "positive_n": "168",
+        "negative_n": "1293",
+        "unresolved_n": "0",
+        "positive_rate": "0.11498973305954825",
+        "statistics_status": "complete",
+        "item1a_available_n": "1417",
+        "item7_available_n": "1378",
+        "item1a_coverage": "0.9446666666666667",
+        "item7_coverage": "0.9186666666666666",
+        "item1a_positive_n": "156",
+        "item7_positive_n": "14",
+        "both_positive_n": "2",
+        "only_item1a_positive_n": "154",
+        "only_item7_positive_n": "12"
+      }
+    ]
+  },
+  "practices": {
+    "run_id": "implemented-ai-governance-content-v1-20261018",
+    "version": "implemented-ai-governance-content-v1.0",
+    "codebook_sha256": "eb145750b1b3169aa1c372395d1810cbe0ff9008175325f261bd39b58753a698",
+    "firm_year_n": 303,
+    "firm_n": 184,
+    "duplicate_keys": 0,
+    "positive_sample_exact": true,
+    "evidence_n": 403,
+    "coding_status": {
+      "coded": 369,
+      "uncodable": 34
+    },
+    "review_flag_evidence_n": 77,
+    "human_review_status": {
+      "not_reviewed": 303
+    },
+    "practice_quote_n": 606,
+    "practice_assignment_n": 467,
+    "assignments_match_panel": true,
+    "with_practice_n": 281,
+    "multi_practice_n": 107,
+    "without_observed_practice_n": 22,
+    "positive_source_files_checked": 306,
+    "positive_source_hash_mismatches": [],
+    "source_evidence_anchor_mismatches": [],
+    "practice_quote_location_mismatches": [],
+    "restored_exact_source_anchors_n": 17,
+    "counts": {
+      "P01": 195,
+      "P02": 29,
+      "P03": 47,
+      "P04": 51,
+      "P05": 13,
+      "P06": 26,
+      "P07": 13,
+      "P08": 35,
+      "P09": 46,
+      "P10": 5,
+      "P11": 1,
+      "P12": 6
+    }
+  },
+  "request_history": {
+    "governance": {
+      "original_path": "outputs/full_universe_implemented_internal_ai_governance_v2/request_manifest.jsonl",
+      "sha256": "2fe73860f92b046ab34f147932512f5957acdd28fc835867147b490c7ba5f9a8",
+      "records_n": 95521,
+      "status_or_event_counts": {
+        "started": 20845,
+        "response_received": 16639,
+        "success": 16633,
+        "raw_saved": 16531,
+        "validated": 16177,
+        "validation_or_transport_error": 4544,
+        "failure": 4149,
+        "semantic_qa_queued": 3
+      },
+      "models": {
+        "deepseek-flash": 95518
+      },
+      "record_fields": [
+        "cik",
+        "ticker",
+        "fiscal_year",
+        "section",
+        "input_file",
+        "input_sha256",
+        "timestamp_utc",
+        "request_id",
+        "prompt_version",
+        "model",
+        "messages_snapshot",
+        "payload_sha256",
+        "validation_request",
+        "attempt",
+        "status"
+      ]
+    },
+    "practices": {
+      "original_path": "data/interim/classifications/implemented_ai_governance_content_analysis/v1/request_manifest.jsonl",
+      "sha256": "dd673eee843476f3ae66a35c2b174192e877169a8b95082d5d94849c0ef588f5",
+      "records_n": 1510,
+      "status_or_event_counts": {
+        "started": 502,
+        "failure": 13,
+        "validation_or_transport_failure": 15,
+        "response_received": 492,
+        "success": 488
+      },
+      "models": {},
+      "record_fields": [
+        "attempt",
+        "evidence_or_batch_id",
+        "request_id",
+        "stage",
+        "status",
+        "time_utc"
+      ]
+    }
+  }
+}
+

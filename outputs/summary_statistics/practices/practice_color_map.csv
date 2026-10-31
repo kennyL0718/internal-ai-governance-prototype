@@ -1,0 +1,13 @@
+﻿practice_id,practice_name,color,hatch,legend_order
+P01,"AI governance frameworks, policies, and procedures",#285A7C,,1
+P04,"AI/ML testing, validation, and risk assessment",#A25986,,2
+P03,AI use-case review and approval gatekeeping,#40876C,,3
+P09,"Ongoing AI monitoring, enforcement, and reporting",#6F7846,,4
+P08,Workforce AI training and awareness,#A96659,,5
+P02,Cross-functional AI governance bodies and committees,#C87935,,6
+P06,Permissible-use rules and third-party contractual restrictions,#C9A240,,7
+P05,Model risk management regime for AI/ML models,#7970A6,,8
+P07,Technical AI access and data-security controls,#5F8C9C,,9
+P12,AI regulatory monitoring and adaptation,#D8A4B9,//,10
+P10,Human oversight and expert-in-the-loop review,#666A78,,11
+P11,"AI operational pause, safety review, and incident investigation",#8BB2D0,//,12

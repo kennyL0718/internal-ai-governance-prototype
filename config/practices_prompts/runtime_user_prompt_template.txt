@@ -1,0 +1,2 @@
+FROZEN CODEBOOK: {codebook_json}
+EVIDENCE UNIT: {evidence_unit_json}

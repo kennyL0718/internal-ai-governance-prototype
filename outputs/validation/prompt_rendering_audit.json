@@ -1,0 +1,9 @@
+{
+  "governance_sample_payload_hash_matches": 5,
+  "practices_saved_request_matches_runtime_builder": true,
+  "practices_saved_request_sha256": "8b0388e78c5169366d8051902fb0300e038b71e684d01f806effa0bdd81e65ce",
+  "practices_template_snapshot_matches_runtime": false,
+  "difference": "Saved user_prompt_template.txt adds a final Return instruction; runtime constructs codebook and evidence input inline without that line. Both original snapshot and exact runtime template are retained.",
+  "original_request": "data/interim/classifications/implemented_ai_governance_content_analysis/v1/requests/closed/0000004962_FY2020_item7_E01__1.json",
+  "llm_calls": 0
+}

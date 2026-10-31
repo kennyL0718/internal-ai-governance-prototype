@@ -1,0 +1,9 @@
+{
+  "index_name": "S&P 500",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+  "retrieved_at": "2026-09-19T03:49:32.414956+00:00",
+  "source_date": "",
+  "html_sha256": "2952e4995145e4a849fa1832f33f6dbe0ae8d42f50d24eb89c798999a636e9b6",
+  "raw_sha256": "e9e27949bd505d7d2d7febf9a244adf23112c7756c4b50b863d57149bcdf6077"
+}

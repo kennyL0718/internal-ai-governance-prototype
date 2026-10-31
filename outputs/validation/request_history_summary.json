@@ -1,0 +1,58 @@
+{
+  "governance": {
+    "original_path": "outputs/full_universe_implemented_internal_ai_governance_v2/request_manifest.jsonl",
+    "sha256": "2fe73860f92b046ab34f147932512f5957acdd28fc835867147b490c7ba5f9a8",
+    "records_n": 95521,
+    "status_or_event_counts": {
+      "started": 20845,
+      "response_received": 16639,
+      "success": 16633,
+      "raw_saved": 16531,
+      "validated": 16177,
+      "validation_or_transport_error": 4544,
+      "failure": 4149,
+      "semantic_qa_queued": 3
+    },
+    "models": {
+      "deepseek-flash": 95518
+    },
+    "record_fields": [
+      "cik",
+      "ticker",
+      "fiscal_year",
+      "section",
+      "input_file",
+      "input_sha256",
+      "timestamp_utc",
+      "request_id",
+      "prompt_version",
+      "model",
+      "messages_snapshot",
+      "payload_sha256",
+      "validation_request",
+      "attempt",
+      "status"
+    ]
+  },
+  "practices": {
+    "original_path": "data/interim/classifications/implemented_ai_governance_content_analysis/v1/request_manifest.jsonl",
+    "sha256": "dd673eee843476f3ae66a35c2b174192e877169a8b95082d5d94849c0ef588f5",
+    "records_n": 1510,
+    "status_or_event_counts": {
+      "started": 502,
+      "failure": 13,
+      "validation_or_transport_failure": 15,
+      "response_received": 492,
+      "success": 488
+    },
+    "models": {},
+    "record_fields": [
+      "attempt",
+      "evidence_or_batch_id",
+      "request_id",
+      "stage",
+      "status",
+      "time_utc"
+    ]
+  }
+}

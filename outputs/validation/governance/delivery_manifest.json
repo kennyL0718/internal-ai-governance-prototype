@@ -1,0 +1,133 @@
+{
+  "version": "implemented-internal-ai-governance-v2.0",
+  "status": "complete",
+  "summary": {
+    "passed": true,
+    "checks": {
+      "target_keys_unique": true,
+      "section_keys_unique": true,
+      "panel_keys_unique": true,
+      "exclusion_keys_unique": true,
+      "target_partition_exact": true,
+      "section_universe_exact": true,
+      "classification_fields_binary_or_blank": true,
+      "all_valid_sections_binary": true,
+      "valid_text_not_excluded": true,
+      "excluded_double_unavailable_only": true,
+      "observed_section_OR_exact": true,
+      "annual_counts_and_rates_exact": true,
+      "original_item1a_bytes_preserved": true,
+      "credential_absent_from_bundle": true
+    },
+    "credential_match_paths": [],
+    "target_n": 9000,
+    "eligible_n": 8500,
+    "excluded_n": 500,
+    "positive_n": 303,
+    "negative_n": 8197,
+    "chapters_classified_n": 16222
+  },
+  "artifacts": [
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\item1a_v2_classification_results.csv",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/item1a_v2_classification_results.csv",
+      "sha256": "2bc1a6bdf76e6d0d6ba2e2ca8ccd6eb265c1acdd32232e707a3e843013821ff2"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\item7_v2_classification_results.csv",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/item7_v2_classification_results.csv",
+      "sha256": "2ef83e54228a7cacb423aa68bcd6766157d69fbaa0629b46dfbedc849f7ef4e2"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\combined_firm_year_v2_panel.csv",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/combined_firm_year_v2_panel.csv",
+      "sha256": "dc4b64256cbf72caf5c7bc425fc5daeacf36896b59f2109af97976c6d0237849"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\annual_trend_summary.csv",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/annual_trend_summary.csv",
+      "sha256": "1105e36938089d11c3f85df1262a324c760626078e2a14d5c442d110f1cb6d85"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\run_report.md",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/run_report.md",
+      "sha256": "e5049dd4347b0de65311af42a57c53a8a74b667ad1e224a503ac1d0299cc29e2"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\exclusion_manifest.csv",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/exclusion_manifest.csv",
+      "sha256": "3d6d7d7963ae2094b06cc778e106c314bb0975ad52e9826047e2174eb28ef696"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\system_prompt.txt",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/system_prompt.txt",
+      "sha256": "2e7e203754e31a27cf12f393c8d0c52d844cdc3cd8b46a38598ea6d9a875636f"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\user_prompt_template.txt",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/user_prompt_template.txt",
+      "sha256": "950485af0a349b1c13ccab255211fe66da927399bd51f695fca12cb16f172e10"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\llm_config.json",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/llm_config.json",
+      "sha256": "d09bac293e8870ed20b824ffed6d5e348d84197675c756436f3f9897451298ab"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\classification_standard_snapshot.md",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/classification_standard_snapshot.md",
+      "sha256": "57ceeb5b12f41df92120a559e7607f04aeef9744efc0deff15e2d2cb200e6c48"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\request_manifest.jsonl",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/request_manifest.jsonl",
+      "sha256": "2fe73860f92b046ab34f147932512f5957acdd28fc835867147b490c7ba5f9a8"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\delivery_qa.json",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/delivery_qa.json",
+      "sha256": "ef0492e5e20affba08627e8acf03a38284a85b4369085bd2678ceb38a13d96d4"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\figures\\figure1_annual_positive_rate.png",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/figure1_annual_positive_rate.png",
+      "sha256": "90d50259dd2a307b7d3835745c723e6597f7454fc7988981ba788156e6b9c626"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\figures\\figure1_annual_positive_rate.pdf",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/figure1_annual_positive_rate.pdf",
+      "sha256": "df2a035f73ec11e96d6883c547926de5ea7efb38e5e37ee7cf7c4716445f1f86"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\figures\\figure2_annual_positive_count.png",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/figure2_annual_positive_count.png",
+      "sha256": "8e715f80eca04437c5f37f093b05320f21e12b9a4b8b0325e1d55f1f3818d2c2"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\figures\\figure2_annual_positive_count.pdf",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/figure2_annual_positive_count.pdf",
+      "sha256": "3fc335cac9b7b3ac711dc6effe715d264fed9abe947f9a673820d3805f351493"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\figures\\combined_annual_trends.png",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/combined_annual_trends.png",
+      "sha256": "2d1c4013f1e3456850b3d37e3fa9c050fd3be88b7239ad5bde3eb8d5ff989a0f"
+    },
+    {
+      "path": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\ai-restrictions-concerns\\outputs\\full_universe_implemented_internal_ai_governance_v2\\figures\\combined_annual_trends.pdf",
+      "project_relative_path": "outputs/full_universe_implemented_internal_ai_governance_v2/figures/combined_annual_trends.pdf",
+      "sha256": "7f90e75d3d0654711a14f0f3f1763d7da8aca5a57bd62836b485f1dd8153d2ed"
+    }
+  ],
+  "final_code_hashes": {
+    "src/ai_restrictions/governance_v2_delivery.py": "1fb6c3a605053a9592ff7d5cc19463f596623c134673cc292f0a5163df3aef9b",
+    "src/ai_restrictions/governance_v2.py": "6d3f4da867dcb5d365b6558a16c9d45534bea126a082c0de0718d605632f30ad",
+    "src/ai_restrictions/governance_v2_recovery.py": "f68a82f05d0ccc98c9b5286e03ee8bec8216ac26d702ff4b503463f4a6cbf259"
+  },
+  "source_boundary_inspection": {
+    "restriction_mention_positive_sections": 24,
+    "source_inspection_complete": true,
+    "human_review_claimed": false
+  },
+  "delivery_status": "complete"
+}

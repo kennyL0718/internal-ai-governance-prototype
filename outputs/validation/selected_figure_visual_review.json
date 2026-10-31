@@ -1,0 +1,12 @@
+{
+  "selected_figures_n": 10,
+  "pngs_visually_inspected": 10,
+  "review_type": "Assistant visual inspection of existing PNGs; not human semantic validation",
+  "checks": [
+    "Legible labels and legends",
+    "Visible titles and source/denominator notes",
+    "No apparent clipping in original-resolution inspection",
+    "Practice prevalence and assignment composition distinguishable"
+  ],
+  "passed": true
+}

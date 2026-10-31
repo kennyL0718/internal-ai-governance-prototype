@@ -1,0 +1,26 @@
+{
+  "api_attempts": 20845,
+  "responses_received": 16639,
+  "usage": {
+    "prompt_tokens": 338355622,
+    "completion_tokens": 16046104,
+    "total_tokens": 354401726,
+    "prompt_cache_hit_tokens": 83251517,
+    "prompt_cache_miss_tokens": 255104105
+  },
+  "actual_account_cost": null,
+  "list_price_estimates": {
+    "USD": {
+      "off_peak": 48.143032701,
+      "peak": 96.286065402
+    },
+    "CNY": {
+      "off_peak": 320.95355134,
+      "peak": 641.90710268
+    }
+  },
+  "response_usage_incomplete_n": 0,
+  "unreceived_attempts": 4206,
+  "pricing_snapshot": "outputs/full_universe_implemented_internal_ai_governance_v2/pricing_snapshot.json",
+  "estimate_note": "List-price scenarios from API-returned usage; no account invoice or itemized deductions were retrieved. The balance endpoint returned CNY. USD amounts are separate published-price scenarios, not a currency conversion."
+}

@@ -1,0 +1,45 @@
+{
+  "run_id": "firm_size_within_disclosure_composition_v1_20261026",
+  "created_at_utc": "2026-10-26T03:32:18.408575+00:00",
+  "status": "descriptive model-label composition; human semantic review pending",
+  "source_versions": {
+    "governance": "implemented-internal-ai-governance-v2.0",
+    "orientation": "fullsample_v3_20261025"
+  },
+  "input_sha256": {
+    "data/interim/classifications/corporate_pro_ai_orientation/fullsample_v3_20261025/firm_year_panel.csv": "eb7732735c47e5a3cd16f6f70c42ab1587b6a10f978e0aafb317a7f0b317ea7e",
+    "data/interim/classifications/corporate_pro_ai_orientation/fullsample_v3_20261025/firm_year_exclusion_manifest.csv": "9264f35fc01df665d9249dc93ba5bd9a7f6849512b837fee99d782c1372b70f1",
+    "data/interim/classifications/corporate_pro_ai_orientation/fullsample_v3_20261025/run_manifest.json": "8db871a711e013ad7c9e559c2cb5075c943e89b29b2e11f41941400d30637a7a",
+    "outputs/reports/fullsample_v3_20261025/qa.json": "6d20bb961add6f00d6949defc99f248b056fad0036e2f08d1d59925a83895dcb",
+    "outputs/reports/fullsample_v3_20261025/sample_accounting.json": "d40a7e32e85e2112d018a2f9560c68e7689e579ff5e603cf9b3d65564a6c59ef",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/combined_firm_year_v2_panel.csv": "dc4b64256cbf72caf5c7bc425fc5daeacf36896b59f2109af97976c6d0237849",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/exclusion_manifest.csv": "3d6d7d7963ae2094b06cc778e106c314bb0975ad52e9826047e2174eb28ef696",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/delivery_qa.json": "ef0492e5e20affba08627e8acf03a38284a85b4369085bd2678ceb38a13d96d4",
+    "outputs/full_universe_implemented_internal_ai_governance_v2/delivery_manifest.json": "3a36608303b894fb9f3cff057e8370a682be30d959dde35d85fd3f2338d3f8be",
+    "data/interim/documents/full_universe_item1a_manifest.csv": "883feb13ceddc4dd2b8c45735c2e6af1229da57ec2ed886acea409620652f661",
+    "data/raw/universe/sp500.csv": "e9e27949bd505d7d2d7febf9a244adf23112c7756c4b50b863d57149bcdf6077",
+    "data/raw/universe/sp500.metadata.json": "6aa1271b47d1f002cb4fb065e32b48180ebd90bf2f03feb8b427e6587471eecd",
+    "data/raw/universe/sp400.csv": "7d0830bf2ffbe52ac379d7cdef01c44fb21eabeb2a7f4f23e2718c55ac5c3c02",
+    "data/raw/universe/sp400.metadata.json": "93fc2652585e240bfdb0f79881c6934c9ff3eaeeb5642aa2227040a6f28d480c",
+    "data/raw/universe/sp600.csv": "71e88259767a30db1920c52be5f4f1c33e6d06b23523b8dda3c6408e17e0e319",
+    "data/raw/universe/sp600.metadata.json": "0f5a15323ba8f8df7f5a8c12898f63a46f75a1a8126c8e6413f2e6064e95b28e"
+  },
+  "code_sha256": {
+    "src/ai_restrictions/firm_size_target_composition.py": "29e84db90064a7f7a2af2bf8276345790395691ed5c7c1497c61065cb1123b93",
+    "scripts/67_analyze_size_within_disclosure.py": "f8c8059cccca64bf4fe28d3a332f30665c922f1904fc3943c282da5d49df0937",
+    "tests/test_firm_size_target_composition.py": "aaaf3344dc13d7ed9e5941c2316e3615cf61733439067917aaa2417eeaf4ed35",
+    "src/ai_restrictions/firm_size_disclosure.py": "b42129c34a29973167772bcb12ee0b341554cbcf822e641332fad576bcdcfc61",
+    "src/ai_restrictions/governance_orientation_descriptive.py": "5ec4ba45175933306c2a1333889932c004568ea5fceec89af3ed887e7e12a3cc",
+    "src/ai_restrictions/governance_adoption_dynamics.py": "90749dcfc16860718de45f3f920935f87be159e4e8aab384be670c09e8290a29",
+    "src/ai_restrictions/combined_governance_trends.py": "bc3f5c176708715d04d1a970849cb1d6bd512953c9ba6b6d2a10c0a2db07c52b",
+    "src/ai_restrictions/governance_visualization.py": "2180537d962e1aa11297fd1c893b1f9d4565f25870f20da4ba11a9ea02dd32d0",
+    "src/ai_restrictions/governance_purpose_inductive_visualization.py": "aae152257fe9096c644c95b2708eb2b2520b6b14b5ae8b463601327acb737bd5"
+  },
+  "denominator": "Within fiscal_year and target_group, sum of Large/Mid/Small count",
+  "llm_calls": 0,
+  "output_ownership": {
+    "outputs/figures/firm_size_within_disclosure_composition_v1_20261026": "final PNG/PDF research figures",
+    "outputs/tables/firm_size_within_disclosure_composition_v1_20261026": "research summary tables",
+    "outputs/reports/firm_size_within_disclosure_composition_v1_20261026": "report, QA, provenance, code snapshot; no new intermediate panel"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "provider": "DeepSeek",
+  "model": "deepseek-flash",
+  "intended_model_version": "DeepSeek-V4.1-Flash",
+  "temperature": 0,
+  "max_tokens": 16384,
+  "response_format": {
+    "type": "json_object"
+  },
+  "base_url": "https://api.deepseek.com",
+  "endpoint": "/chat/completions",
+  "timeout_seconds": 120,
+  "max_retries": 3,
+  "retry_backoff_seconds": [
+    2,
+    4,
+    8
+  ],
+  "validation_request_limit": 2,
+  "context_limit": 1000000,
+  "settings_source": "data/interim/classifications/full_universe_item7_implemented_internal_ai_governance/v1/run_manifest.json",
+  "settings_source_sha256": "38407ea9ea72ec0af9e09159546b17871cd0801db165bf6cbd07f6ce8f1d4dcb",
+  "full_text_input": true,
+  "keyword_screening": false,
+  "cost": null,
+  "cost_basis": "No verified pricing snapshot available",
+  "prompt_version": "implemented-internal-ai-governance-v2.0-validation-recovery1",
+  "corrective_requests_per_section": 1,
+  "workers": 16,
+  "original_system_prompt_unchanged": true,
+  "original_standard_unchanged": true
+}

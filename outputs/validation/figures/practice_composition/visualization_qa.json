@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "classification_inputs_unchanged": true,
+  "assignments": 467,
+  "annual_assignments": {
+    "2020": 5,
+    "2021": 5,
+    "2022": 6,
+    "2023": 54,
+    "2024": 135,
+    "2025": 262
+  },
+  "practice_categories": 12,
+  "practice_quote_labels": 606,
+  "source_txt_hashes_verified": 284,
+  "master_statistics_cells_reconciled": 84,
+  "evidence_panel_set_equality": true,
+  "main_statistics_equality": true,
+  "annual_shares_sum_to_100": true,
+  "qa_type": "technical source/aggregation QA",
+  "human_semantic_validation": false,
+  "human_reviews_completed": 0,
+  "flagged_only_assignments": 23,
+  "figures": {
+    "annual_governance_practices_composition_share": {
+      "text_canvas_check": true,
+      "axes": 2,
+      "png_dpi": 300,
+      "width_inches": 16.0,
+      "height_inches": 10.8,
+      "data_values_checked": true
+    },
+    "annual_governance_practices_composition_count": {
+      "text_canvas_check": true,
+      "axes": 2,
+      "png_dpi": 300,
+      "width_inches": 16.0,
+      "height_inches": 10.8,
+      "data_values_checked": true
+    }
+  },
+  "independent_export_and_master_check": true,
+  "standalone_reproduction_verified": true,
+  "export_checks": {
+    "annual_governance_practices_composition_count.png": {
+      "width_px": 4800,
+      "height_px": 3240,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "reproduction_byte_identical": true
+    },
+    "annual_governance_practices_composition_share.png": {
+      "width_px": 4800,
+      "height_px": 3240,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "reproduction_byte_identical": true
+    },
+    "annual_governance_practices_composition_count.pdf": {
+      "single_page": true,
+      "embedded_truetype": true,
+      "vector": true,
+      "reproduction_byte_identical": true
+    },
+    "annual_governance_practices_composition_share.pdf": {
+      "single_page": true,
+      "embedded_truetype": true,
+      "vector": true,
+      "reproduction_byte_identical": true
+    }
+  },
+  "assistant_visual_inspection_passed": true,
+  "visual_inspection_note": "Both PNGs inspected: full legends, titles, labels and footnotes fit; no classification adjudication."
+}

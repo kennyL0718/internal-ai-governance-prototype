@@ -1,0 +1,9 @@
+{
+  "date_local": "2026-10-18",
+  "command": ".venv/Scripts/python.exe -m pytest tests/test_governance_content.py tests/test_deepseek_client.py -q -p no:cacheprovider --basetemp=tmp/pytest_content_delivery_20261018",
+  "passed": 17,
+  "failed": 0,
+  "exit_code": 0,
+  "scope": "Source quotation offsets and continuous-block constraints; invalid quotes and IDs; motive relationship and absence checks; cross-chapter deduplication; explicit precedence; failed evidence preservation; emerging review requirements; shared DeepSeek client behavior.",
+  "note": "Offline implementation checks, not semantic accuracy or human reliability. Final exported data receive separate independent integrity QA."
+}

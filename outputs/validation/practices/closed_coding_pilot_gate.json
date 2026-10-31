@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "evidence_ids": [
+    "0000004962_FY2020_item7_E01",
+    "0001467858_FY2023_item1a_E01",
+    "0001467858_FY2023_item7_E01",
+    "0001739445_FY2025_item1a_E01",
+    "0001639438_FY2025_item1a_E01"
+  ],
+  "checks": [
+    "schema",
+    "allowed IDs",
+    "exact source quotes",
+    "relationship quotes",
+    "source hash"
+  ],
+  "timestamp": "2026-10-18T08:04:36.055533+00:00",
+  "caveat": "Automated integrity validation; not human semantic accuracy"
+}

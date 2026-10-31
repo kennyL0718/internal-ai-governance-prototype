@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "size_composition": {
+      "cells_n": 18,
+      "mismatches_n": 0
+    },
+    "industry_composition": {
+      "cells_n": 33,
+      "mismatches_n": 0
+    },
+    "size_industry": {
+      "cells_n": 99,
+      "mismatches_n": 0,
+      "valid_2023_2025_n": 4360
+    },
+    "practice_prevalence": {
+      "cells_n": 84,
+      "mismatches_n": 0
+    },
+    "practice_assignment_composition": {
+      "cells_n": 72,
+      "mismatches_n": 0
+    }
+  },
+  "mismatches": [],
+  "figure_classification_lineage": [
+    {
+      "manifest": "outputs/figures/industry_within_disclosure_composition_v1_20261028/manifest.json",
+      "classification_hashes_checked": 4,
+      "mismatches": []
+    },
+    {
+      "manifest": "outputs/reports/governance_size_industry_v1_20261028/manifest.json",
+      "classification_hashes_checked": 4,
+      "mismatches": []
+    },
+    {
+      "manifest": "outputs/reports/firm_size_within_disclosure_composition_v1_20261026/manifest.json",
+      "classification_hashes_checked": 4,
+      "mismatches": []
+    },
+    {
+      "manifest": "outputs/figures/governance_practices_v1_20261018_visualization_20261026/visualization_manifest.json",
+      "classification_hashes_checked": 13,
+      "mismatches": []
+    }
+  ]
+}
+

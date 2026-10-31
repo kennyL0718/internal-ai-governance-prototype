@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "method": "Physical copy of prototype to a different root, with no original-source comparison and a different working directory",
+  "copied_root": "C:\\Users\\62638\\DESKTOP\\不拥抱AI\\prototype\\tmp\\relocation_check",
+  "python_environment": "Existing project interpreter reused; no original project datasets or modules required by verification",
+  "governance_rows": 8500,
+  "practices_rows": 303,
+  "all_403_evidence_units_validated": true,
+  "binary_sample_original_payload_matches": 5,
+  "practice_saved_request_matches": true,
+  "llm_calls": 0
+}

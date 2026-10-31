@@ -1,0 +1,12 @@
+Assess the complete {section} disclosure below under the authoritative v2 standard.
+Company: {company_name}
+CIK: {cik}
+Ticker: {ticker}
+Fiscal year: {fiscal_year}
+Fiscal year end: {fiscal_year_end}
+Filing date: {filing_date}
+Accession: {accession_number}
+BEGIN COMPLETE SECTION DISCLOSURE
+{full_text}
+END COMPLETE SECTION DISCLOSURE
+Return the specified JSON object.

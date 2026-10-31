@@ -1,0 +1,7 @@
+﻿fiscal_year,task,frame_n,valid_n,excluded_n,valid_coverage_pct,positive_n,non_positive_n,missing_cik_n,double_unavailable_n,unresolved_n,both_sections_classified_n
+2020,governance,1500,1337,163,89.13333333333334,2,1335,1,162,0,1215
+2021,governance,1500,1394,106,92.93333333333334,2,1392,1,105,0,1255
+2022,governance,1500,1409,91,93.93333333333334,3,1406,1,90,0,1270
+2023,governance,1500,1441,59,96.06666666666666,35,1406,1,58,0,1310
+2024,governance,1500,1458,42,97.2,93,1365,1,41,0,1338
+2025,governance,1500,1461,39,97.4,168,1293,1,38,0,1334

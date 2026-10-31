@@ -1,0 +1,39 @@
+{
+  "provider": "DeepSeek",
+  "model": "deepseek-flash",
+  "intended_model_version": "DeepSeek-V4.1-Flash",
+  "temperature": 0,
+  "max_tokens": 16384,
+  "response_format": {
+    "type": "json_object"
+  },
+  "base_url": "https://api.deepseek.com",
+  "endpoint": "/chat/completions",
+  "timeout_seconds": 120,
+  "max_retries": 3,
+  "retry_backoff_seconds": [
+    2,
+    4,
+    8
+  ],
+  "validation_request_limit": 2,
+  "context_limit": 1000000,
+  "settings_source": "data/interim/classifications/full_universe_item7_implemented_internal_ai_governance/v1/run_manifest.json",
+  "settings_source_sha256": "38407ea9ea72ec0af9e09159546b17871cd0801db165bf6cbd07f6ce8f1d4dcb",
+  "full_text_input": false,
+  "keyword_screening": false,
+  "cost": null,
+  "cost_basis": "No verified pricing snapshot available",
+  "prompt_version": "implemented-ai-governance-content-v1.0",
+  "input_policy": "Focal evidence plus merged continuous context blocks around ALL companion Positive evidence in the same chapter, 1100 characters each side; no cross-block quote stitching.",
+  "official_model_version_on_20261018": "DeepSeek-V4.1-Flash-1017",
+  "model_alias_drift_note": "Same requested model alias as binary workflow; provider upgraded alias. Returned model logged per response.",
+  "workers": 16,
+  "run_id": "implemented-ai-governance-content-v1-20261018",
+  "state_directory": "data/interim/classifications/implemented_ai_governance_content_analysis/v1",
+  "synthesis_max_tokens": 65536,
+  "synthesis_setting_exception": "Original 16384 limit exhausted by reasoning and truncated output; interrupted remaining identical retries. Only synthesis budget increased; evidence coding remains 16384.",
+  "synthesis_json_format_correction": "Explicit JSON instruction added after initial HTTP 400; earlier request/response provenance retained.",
+  "thinking_setting": "Not explicitly set; provider default inherited; reasoning token usage retained in raw responses and accounting",
+  "validation": "coding_schema.json plus custom Python checks of IDs, exact continuous source quotes, relationships and statuses"
+}

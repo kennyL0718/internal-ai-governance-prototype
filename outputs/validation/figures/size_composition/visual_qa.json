@@ -1,0 +1,83 @@
+{
+  "figure01_governance_positive_firm_size_composition": {
+    "plotted_values_equal_csv": true,
+    "annual_bars_n": 6,
+    "size_segments_n": 18,
+    "nonempty_annual_stacks_sum_to_100": true,
+    "n_labels": [
+      2,
+      2,
+      3,
+      35,
+      93,
+      168
+    ],
+    "percentage_label_threshold": 5,
+    "colors": {
+      "Large": "#285A7C",
+      "Mid": "#C87935",
+      "Small": "#40876C"
+    },
+    "share_denominator": "annual named disclosure category total across sizes",
+    "text_inside_canvas": true,
+    "legend_clear_of_axis_labels": true,
+    "png_dpi": 300,
+    "axes_n": 1,
+    "visually_reviewed": true,
+    "titles_percentages_n_and_legends_legible": true
+  },
+  "figure02_pro_ai_firm_size_composition": {
+    "plotted_values_equal_csv": true,
+    "annual_bars_n": 6,
+    "size_segments_n": 18,
+    "nonempty_annual_stacks_sum_to_100": true,
+    "n_labels": [
+      57,
+      73,
+      82,
+      242,
+      390,
+      611
+    ],
+    "percentage_label_threshold": 5,
+    "colors": {
+      "Large": "#285A7C",
+      "Mid": "#C87935",
+      "Small": "#40876C"
+    },
+    "share_denominator": "annual named disclosure category total across sizes",
+    "text_inside_canvas": true,
+    "legend_clear_of_axis_labels": true,
+    "png_dpi": 300,
+    "axes_n": 1,
+    "visually_reviewed": true,
+    "titles_percentages_n_and_legends_legible": true
+  },
+  "figure03_non_pro_ai_firm_size_composition": {
+    "plotted_values_equal_csv": true,
+    "annual_bars_n": 6,
+    "size_segments_n": 18,
+    "nonempty_annual_stacks_sum_to_100": true,
+    "n_labels": [
+      103,
+      114,
+      132,
+      468,
+      663,
+      645
+    ],
+    "percentage_label_threshold": 5,
+    "colors": {
+      "Large": "#285A7C",
+      "Mid": "#C87935",
+      "Small": "#40876C"
+    },
+    "share_denominator": "annual named disclosure category total across sizes",
+    "text_inside_canvas": true,
+    "legend_clear_of_axis_labels": true,
+    "png_dpi": 300,
+    "axes_n": 1,
+    "visually_reviewed": true,
+    "titles_percentages_n_and_legends_legible": true
+  }
+}

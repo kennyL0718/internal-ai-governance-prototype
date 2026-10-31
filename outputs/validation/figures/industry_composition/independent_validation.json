@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source": "Independent standard-library recount of final source CSVs; no analysis/join imports",
+  "composition_rows_checked": 66,
+  "sector_year_rate_rows_checked": 33,
+  "annual_coverage_rows_checked": 12,
+  "sector_mapping_rows_checked": 11,
+  "duplicate_cik_fy_n": 0,
+  "sector_mapping_conflicts_n": 0,
+  "input_code_and_output_sha256_verified": true,
+  "independent_task_denominators": true,
+  "no_ai_discussion_in_orientation_denominator": true,
+  "raw_index_snapshot_sectors_reconciled": true,
+  "figure_n_and_colors_reconciled": true,
+  "png_dimensions": {
+    "figure01_governance_positive_industry_composition": [
+      4320,
+      2400
+    ],
+    "figure02_pro_ai_industry_composition": [
+      4320,
+      2400
+    ]
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "runtime_executable": "C:\\Users\\62638\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+}

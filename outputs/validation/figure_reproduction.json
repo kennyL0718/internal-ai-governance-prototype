@@ -1,0 +1,760 @@
+{
+  "llm_calls": 0,
+  "selected_figures_replayed": 10,
+  "byte_identical_png_n": 10,
+  "pixel_identical_png_n": 10,
+  "comparisons": [
+    {
+      "prototype_figure": "figures/governance/annual_positive_rate.png",
+      "replay_path": "outputs/reproduced/final_check/figures/governance/trend/figures/figure1_annual_positive_rate.png",
+      "original_sha256": "90d50259dd2a307b7d3835745c723e6597f7454fc7988981ba788156e6b9c626",
+      "replay_sha256": "90d50259dd2a307b7d3835745c723e6597f7454fc7988981ba788156e6b9c626",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/governance/positive_size_composition.png",
+      "replay_path": "outputs/reproduced/final_check/figures/governance/size/figure01_governance_positive_firm_size_composition.png",
+      "original_sha256": "c1af7a345baee9e7bbdb2b401f7d431088b2edf6d42c94a6812bda2c8d0e7551",
+      "replay_sha256": "c1af7a345baee9e7bbdb2b401f7d431088b2edf6d42c94a6812bda2c8d0e7551",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/governance/positive_industry_composition.png",
+      "replay_path": "outputs/reproduced/final_check/figures/governance/industry/figure01_governance_positive_industry_composition.png",
+      "original_sha256": "e040ea0e29f72ddb10f74ebfe4cfe739440b0af89a0dac60dc6425efba8e30e5",
+      "replay_sha256": "e040ea0e29f72ddb10f74ebfe4cfe739440b0af89a0dac60dc6425efba8e30e5",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/governance/size_industry_annual_positive_rate.png",
+      "replay_path": "outputs/reproduced/final_check/figures/governance/size_industry/figure1_annual_positive_rate.png",
+      "original_sha256": "80b3d0fed5cc39e4ae3097768eaf0ba6d5dacfc04b679983da0afa4eeb44b97e",
+      "replay_sha256": "80b3d0fed5cc39e4ae3097768eaf0ba6d5dacfc04b679983da0afa4eeb44b97e",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/governance/size_industry_change_2023_2025.png",
+      "replay_path": "outputs/reproduced/final_check/figures/governance/size_industry/figure2_rate_change_2023_2025.png",
+      "original_sha256": "5253657b90ef5e4327db4e457f8cd59641bd3b3e56b54176d04fe292f8334181",
+      "replay_sha256": "5253657b90ef5e4327db4e457f8cd59641bd3b3e56b54176d04fe292f8334181",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/governance/size_industry_pooled_positive_rate.png",
+      "replay_path": "outputs/reproduced/final_check/figures/governance/size_industry/figure3_pooled_positive_rate.png",
+      "original_sha256": "de9f834231983df6ef8a149626956d4a17986aa66404086f86251227d283b868",
+      "replay_sha256": "de9f834231983df6ef8a149626956d4a17986aa66404086f86251227d283b868",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/practices/practice_distribution.png",
+      "replay_path": "outputs/reproduced/final_check/figures/practices/content/figures/01_practices_frequency.png",
+      "original_sha256": "34838f2a1474faddc72e5799ddda2f0c808c77e6f10e3fdc7b709f5cb50df957",
+      "replay_sha256": "34838f2a1474faddc72e5799ddda2f0c808c77e6f10e3fdc7b709f5cb50df957",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/practices/practice_annual_prevalence.png",
+      "replay_path": "outputs/reproduced/final_check/figures/practices/content/figures/04_practices_by_year.png",
+      "original_sha256": "c0b00ba784f8f9768fc56edfb59e659fb02a78b4e629a960cdd1031d63fbb5ef",
+      "replay_sha256": "c0b00ba784f8f9768fc56edfb59e659fb02a78b4e629a960cdd1031d63fbb5ef",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/practices/practice_annual_assignment_share.png",
+      "replay_path": "outputs/reproduced/final_check/figures/practices/annual/annual_governance_practices_composition_share.png",
+      "original_sha256": "be743bbbd5876292b4fc15f65e1218c13e5f4ef8a9395fa3a45c3a0b7bb20e76",
+      "replay_sha256": "be743bbbd5876292b4fc15f65e1218c13e5f4ef8a9395fa3a45c3a0b7bb20e76",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    },
+    {
+      "prototype_figure": "figures/practices/practice_annual_assignment_count.png",
+      "replay_path": "outputs/reproduced/final_check/figures/practices/annual/annual_governance_practices_composition_count.png",
+      "original_sha256": "ac8a223eba563441fea3834b098768062c5e5e27c739ddf6fe0a02a01def09ca",
+      "replay_sha256": "ac8a223eba563441fea3834b098768062c5e5e27c739ddf6fe0a02a01def09ca",
+      "equal_png_bytes": true,
+      "equal_rgb_pixels": true
+    }
+  ],
+  "original_function_extractions": [
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "NAVY"
+      ],
+      "source_definition_sha256": "3aed6d5534f694f0cc87590f564c586b90286454b7b8bc861f10460bd51eada9",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "PALETTE"
+      ],
+      "source_definition_sha256": "970bd46b99e405688929c08a05756bff9a34ee625ff073d469a7fc85c733b000",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "read"
+      ],
+      "source_definition_sha256": "3251eef61ba7c7f3488d3d76cef36af942263a5af13ddceaa22f935720b07a7b",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "rows"
+      ],
+      "source_definition_sha256": "4da9f050823f0a89c7490b8bd027c6b5fe25124d8c8952170b2f06aa53b452ff",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "sha"
+      ],
+      "source_definition_sha256": "452dca73f0c03024f1b37c1334a1d3066a7fe36748642a70b164d5c2c9bfcc47",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "csvout"
+      ],
+      "source_definition_sha256": "362485c8749a61240b280b5a1d28da64106be7e727522adc623b444b99240673",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "check"
+      ],
+      "source_definition_sha256": "becf67e4369170d6fdc93687143c844db555d8673c28f26e92348ce8d273802e",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "wrap"
+      ],
+      "source_definition_sha256": "fd81912400e14571d8b2554944c5ad450b9947ac735e93923ae622b08b459ef8",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "configure"
+      ],
+      "source_definition_sha256": "ab4c4d3e237b42402ad68c267d06df0e0cbffe44e8731a3b553f5bd52cae7cfd",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "title"
+      ],
+      "source_definition_sha256": "596847daaa456fc0e306eefc42307357985f3f1b2325ab6820bce59be35eb654",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "footer"
+      ],
+      "source_definition_sha256": "2a660912d0f28c8d692877686b12bd48b69aa44e9b495df9eddcd28546406464",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "grid"
+      ],
+      "source_definition_sha256": "d6be679f38b54d38ea27b6e07ba35b70529fff4b8899961aaa8c00bc2e6a0177",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "save"
+      ],
+      "source_definition_sha256": "1ba2c1b608bfb6bff3506692c13e530e41d8354f7a48306e811034d88b12e4cc",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/purpose_plot_style.py",
+      "definitions": [
+        "legend_axis"
+      ],
+      "source_definition_sha256": "833d9cb77658a1f11b63a86a47e5fa8547981be38919fde796e97dec20435e8c",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/firm_size_disclosure.py",
+      "definitions": [
+        "YEARS"
+      ],
+      "source_definition_sha256": "5a45765923621701d5aa589ca67c9d4b068f5680aafe2e0d5e307784dcc8f2d7",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/firm_size_disclosure.py",
+      "definitions": [
+        "SIZES"
+      ],
+      "source_definition_sha256": "f341dd4daef1ed7494239284d51fc175752b1697cba00855a76b2c88f6eb3981",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/firm_size_disclosure.py",
+      "definitions": [
+        "SIZE_COLORS"
+      ],
+      "source_definition_sha256": "f530843dc56e7272e20ebdcdf7fb39702effcac5d8056131af6178d3004633c4",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/firm_size_disclosure.py",
+      "definitions": [
+        "save_figure"
+      ],
+      "source_definition_sha256": "05fb76cd94759f1d75355986abc7d88c3ba230731e6e5521df5c5fd117e136be",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/firm_size_target_composition.py",
+      "definitions": [
+        "plot_compositions"
+      ],
+      "source_definition_sha256": "9a1b79eb28e05e128c5b4bbf242b1bb755e50f5acd008924ab30a82adf200840",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/industry_target_composition.py",
+      "definitions": [
+        "plots"
+      ],
+      "source_definition_sha256": "94794969ad7215eb4b3a1faf59fe22c8c36e68ce183698e6af5097f18f0cb3dd",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/visualization/reference/governance_size_industry.py",
+      "definitions": [
+        "plot_figures"
+      ],
+      "source_definition_sha256": "262458c20a048175a1d35b797bff20291dbb0cb67395bd743f2186166bdc1d25",
+      "selection": "verbatim definition; paths bound by adapter"
+    },
+    {
+      "source": "src/practices/ai_restrictions/governance_content_reporting.py",
+      "definitions": [
+        "figures"
+      ],
+      "source_definition_sha256": "a3d46ca41731117b0e82af136a1ba29dfeef24e162401c968a734b140a3ab436",
+      "selection": "practice blocks only"
+    },
+    {
+      "source": "src/visualization/reference/plot_governance_practices.py",
+      "definitions": [
+        "figures"
+      ],
+      "source_definition_sha256": "e462ee3feeb83c808deced8d48b4195d23b12d3f2e5846665ed6e353839fbce1",
+      "selection": "verbatim definition; paths bound by adapter"
+    }
+  ],
+  "renderer_checks": {
+    "size_composition": {
+      "figure01_governance_positive_firm_size_composition": {
+        "plotted_values_equal_csv": true,
+        "annual_bars_n": 6,
+        "size_segments_n": 18,
+        "nonempty_annual_stacks_sum_to_100": true,
+        "n_labels": [
+          2,
+          2,
+          3,
+          35,
+          93,
+          168
+        ],
+        "percentage_label_threshold": 5,
+        "colors": {
+          "Large": "#285A7C",
+          "Mid": "#C87935",
+          "Small": "#40876C"
+        },
+        "share_denominator": "annual named disclosure category total across sizes",
+        "text_inside_canvas": true,
+        "legend_clear_of_axis_labels": true,
+        "png_dpi": 300,
+        "axes_n": 1
+      }
+    },
+    "industry_composition": {
+      "figure01_governance_positive_industry_composition": {
+        "plotted_values_equal_csv": true,
+        "annual_stacks_sum_to_100": true,
+        "annual_positive_n": [
+          35,
+          93,
+          168
+        ],
+        "sector_codes": [
+          "10",
+          "15",
+          "20",
+          "25",
+          "30",
+          "35",
+          "40",
+          "45",
+          "50",
+          "55",
+          "60"
+        ],
+        "colors": {
+          "10": "#8F5E47",
+          "15": "#B6A268",
+          "20": "#40876C",
+          "25": "#C87935",
+          "30": "#B7BD75",
+          "35": "#8175A5",
+          "40": "#285A7C",
+          "45": "#3E9BA5",
+          "50": "#C66D86",
+          "55": "#6C7B91",
+          "60": "#A8998E"
+        },
+        "bars_n": 3,
+        "sectors_per_bar": 11,
+        "label_threshold_pct": 5,
+        "legend_clear_of_footer": true,
+        "identical_axes_and_legend": true,
+        "text_inside_canvas": true,
+        "legend_clear_of_axis_labels": true,
+        "png_dpi": 300,
+        "axes_n": 1
+      }
+    },
+    "size_industry": {
+      "figure1_annual_positive_rate": {
+        "data_matrices": [
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              8.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.1904761904761905,
+              0.0
+            ],
+            [
+              4.3478260869565215,
+              3.6363636363636362,
+              2.2988505747126435
+            ],
+            [
+              3.0303030303030303,
+              0.0,
+              0.0
+            ],
+            [
+              1.7241379310344827,
+              0.0,
+              1.5151515151515151
+            ],
+            [
+              15.714285714285714,
+              1.6129032258064515,
+              0.0
+            ],
+            [
+              5.633802816901408,
+              4.166666666666667,
+              3.076923076923077
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              3.3333333333333335,
+              0.0,
+              0.0
+            ],
+            [
+              3.3333333333333335,
+              3.4482758620689653,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              6.25,
+              3.225806451612903
+            ],
+            [
+              8.333333333333334,
+              4.0,
+              7.6923076923076925
+            ],
+            [
+              3.75,
+              3.5294117647058822,
+              4.395604395604396
+            ],
+            [
+              2.127659574468085,
+              5.555555555555555,
+              1.1494252873563218
+            ],
+            [
+              11.764705882352942,
+              0.0,
+              0.0
+            ],
+            [
+              6.779661016949152,
+              0.0,
+              8.695652173913043
+            ],
+            [
+              26.38888888888889,
+              9.836065573770492,
+              2.608695652173913
+            ],
+            [
+              15.492957746478874,
+              16.666666666666668,
+              7.575757575757576
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              3.3333333333333335,
+              7.142857142857143,
+              0.0
+            ],
+            [
+              6.666666666666667,
+              3.5714285714285716,
+              0.0
+            ]
+          ],
+          [
+            [
+              5.0,
+              11.764705882352942,
+              9.375
+            ],
+            [
+              0.0,
+              4.0,
+              16.0
+            ],
+            [
+              11.25,
+              10.714285714285714,
+              7.777777777777778
+            ],
+            [
+              2.127659574468085,
+              8.928571428571429,
+              3.488372093023256
+            ],
+            [
+              12.121212121212121,
+              7.142857142857143,
+              0.0
+            ],
+            [
+              13.793103448275861,
+              5.714285714285714,
+              17.647058823529413
+            ],
+            [
+              30.555555555555557,
+              14.285714285714286,
+              9.565217391304348
+            ],
+            [
+              20.0,
+              18.75,
+              10.606060606060606
+            ],
+            [
+              0.0,
+              16.666666666666668,
+              10.526315789473685
+            ],
+            [
+              9.67741935483871,
+              13.333333333333334,
+              16.666666666666668
+            ],
+            [
+              17.24137931034483,
+              6.896551724137931,
+              15.555555555555555
+            ]
+          ]
+        ],
+        "sector_order": [
+          "Energy",
+          "Materials",
+          "Industrials",
+          "Consumer Discretionary",
+          "Consumer Staples",
+          "Health Care",
+          "Financials",
+          "Information Technology",
+          "Communication Services",
+          "Utilities",
+          "Real Estate"
+        ],
+        "size_order": [
+          "Large",
+          "Mid",
+          "Small"
+        ],
+        "scale_limits": [
+          0,
+          35
+        ],
+        "unit": "percent",
+        "small_sample_threshold": 20,
+        "sparse_positive_threshold": 5,
+        "source_table_values_matched": true,
+        "text_inside_canvas": true,
+        "legend_clear_of_axis_labels": true,
+        "png_dpi": 300,
+        "axes_n": 4
+      },
+      "figure2_rate_change_2023_2025": {
+        "data_matrices": [
+          [
+            [
+              5.0,
+              11.764705882352942,
+              9.375
+            ],
+            [
+              0.0,
+              -4.0,
+              16.0
+            ],
+            [
+              11.25,
+              9.523809523809524,
+              7.777777777777778
+            ],
+            [
+              -2.2201665124884364,
+              5.292207792207792,
+              1.1895215183106123
+            ],
+            [
+              9.09090909090909,
+              7.142857142857143,
+              0.0
+            ],
+            [
+              12.068965517241379,
+              5.714285714285714,
+              16.131907308377897
+            ],
+            [
+              14.841269841269844,
+              12.672811059907835,
+              9.565217391304348
+            ],
+            [
+              14.366197183098592,
+              14.583333333333332,
+              7.529137529137529
+            ],
+            [
+              0.0,
+              16.666666666666668,
+              10.526315789473685
+            ],
+            [
+              6.344086021505376,
+              13.333333333333334,
+              16.666666666666668
+            ],
+            [
+              13.908045977011495,
+              3.4482758620689653,
+              15.555555555555555
+            ]
+          ]
+        ],
+        "sector_order": [
+          "Energy",
+          "Materials",
+          "Industrials",
+          "Consumer Discretionary",
+          "Consumer Staples",
+          "Health Care",
+          "Financials",
+          "Information Technology",
+          "Communication Services",
+          "Utilities",
+          "Real Estate"
+        ],
+        "size_order": [
+          "Large",
+          "Mid",
+          "Small"
+        ],
+        "scale_limits": [
+          -20,
+          20
+        ],
+        "unit": "percentage points",
+        "small_sample_threshold": 20,
+        "sparse_positive_threshold": 5,
+        "source_table_values_matched": true,
+        "text_inside_canvas": true,
+        "legend_clear_of_axis_labels": true,
+        "png_dpi": 300,
+        "axes_n": 2
+      },
+      "figure3_pooled_positive_rate": {
+        "data_matrices": [
+          [
+            [
+              1.7543859649122806,
+              6.122448979591836,
+              4.25531914893617
+            ],
+            [
+              2.7777777777777777,
+              5.333333333333333,
+              7.894736842105263
+            ],
+            [
+              5.042016806722689,
+              5.138339920948616,
+              4.104477611940299
+            ],
+            [
+              2.857142857142857,
+              6.0606060606060606,
+              2.3076923076923075
+            ],
+            [
+              9.0,
+              2.272727272727273,
+              0.0
+            ],
+            [
+              7.428571428571429,
+              1.9230769230769231,
+              9.35960591133005
+            ],
+            [
+              24.299065420560748,
+              8.602150537634408,
+              4.046242774566474
+            ],
+            [
+              13.679245283018869,
+              13.194444444444445,
+              7.106598984771574
+            ],
+            [
+              0.0,
+              5.555555555555555,
+              3.6363636363636362
+            ],
+            [
+              5.4945054945054945,
+              7.142857142857143,
+              5.555555555555555
+            ],
+            [
+              8.98876404494382,
+              4.651162790697675,
+              5.2631578947368425
+            ]
+          ]
+        ],
+        "sector_order": [
+          "Energy",
+          "Materials",
+          "Industrials",
+          "Consumer Discretionary",
+          "Consumer Staples",
+          "Health Care",
+          "Financials",
+          "Information Technology",
+          "Communication Services",
+          "Utilities",
+          "Real Estate"
+        ],
+        "size_order": [
+          "Large",
+          "Mid",
+          "Small"
+        ],
+        "scale_limits": [
+          0,
+          35
+        ],
+        "unit": "percent",
+        "small_sample_threshold": 20,
+        "sparse_positive_threshold": 5,
+        "source_table_values_matched": true,
+        "text_inside_canvas": true,
+        "legend_clear_of_axis_labels": true,
+        "png_dpi": 300,
+        "axes_n": 2
+      }
+    },
+    "practice_composition": {
+      "annual_governance_practices_composition_share": {
+        "text_canvas_check": true,
+        "axes": 2,
+        "png_dpi": 300,
+        "width_inches": 16.0,
+        "height_inches": 10.8,
+        "data_values_checked": true
+      },
+      "annual_governance_practices_composition_count": {
+        "text_canvas_check": true,
+        "axes": 2,
+        "png_dpi": 300,
+        "width_inches": 16.0,
+        "height_inches": 10.8,
+        "data_values_checked": true
+      }
+    }
+  },
+  "runtime": {
+    "matplotlib": "3.11.2"
+  },
+  "scope": "Saved data and original plotting functions; no inference or new empirical analysis"
+}

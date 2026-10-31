@@ -1,0 +1,12 @@
+{
+  "stage": "exploration_before_freeze",
+  "revised_input_version": "same-chapter-context-v2",
+  "supplemented_firm_years": 21,
+  "supplemented_evidence": 38,
+  "sample_membership_changed": false,
+  "initial_flagged_evidence": 26,
+  "supplemented_flagged_evidence": 16,
+  "reason": "Initial open coding flagged fragmented risk/scope anchors and current-review vs future-adoption ambiguity; read same-chapter companion source spans before codebook freeze.",
+  "original_results": "data/interim/classifications/implemented_ai_governance_content_analysis/v1/open_coding_results_before_context_v2.json",
+  "completed_utc": "2026-10-18T07:55:58.421547+00:00"
+}

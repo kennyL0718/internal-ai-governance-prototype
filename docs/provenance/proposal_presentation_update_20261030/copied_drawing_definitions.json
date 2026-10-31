@@ -1,0 +1,32 @@
+[
+  {
+    "function": "annual_rate_figure",
+    "source_file": "src/ai_restrictions/proposal_figure_presentation.py",
+    "source_file_sha256": "e97be20b7936ee16849ba13e94eff234f3c34a36188f4b25ee05b146fe48bde5",
+    "definition_sha256": "628dcb29f52024cb346afca83a8374957a0e6467ccf8b88624a0b10fab211f23"
+  },
+  {
+    "function": "export",
+    "source_file": "src/ai_restrictions/proposal_figure_presentation.py",
+    "source_file_sha256": "e97be20b7936ee16849ba13e94eff234f3c34a36188f4b25ee05b146fe48bde5",
+    "definition_sha256": "a9076ffca68117076c94003f1ec778019fdc5e626ec1fab4c6e04ede2f9c5095"
+  },
+  {
+    "function": "academic_pies",
+    "source_file": "src/ai_restrictions/governance_practices_visualization.py",
+    "source_file_sha256": "47bb751ea67df5e0feec069c36394398934a057defdea9e4d3a0eedcded6e1a0",
+    "definition_sha256": "3e33695f76e4110d1f2bbf91507841c4e5952054a0eff653b0d6bfb0cb32b5b3"
+  },
+  {
+    "function": "academic_annual_heatmap",
+    "source_file": "src/ai_restrictions/governance_size_industry.py",
+    "source_file_sha256": "d2593db516ab01723ec6167e888222ddf1036ee595b53f447e1356d986e9dc27",
+    "definition_sha256": "b2930eda106e02a9933a91b3f1bac40cf6e15f674b8316c1c10be50431b43f20"
+  },
+  {
+    "function": "academic_exclusion_bars",
+    "source_file": "src/ai_restrictions/governance_size_industry.py",
+    "source_file_sha256": "d2593db516ab01723ec6167e888222ddf1036ee595b53f447e1356d986e9dc27",
+    "definition_sha256": "8327ecb34a8f7d5a7a91bc884683e3c7954d63fe41992f26c094e8887c50ff83"
+  }
+]

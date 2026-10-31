@@ -1,0 +1,181 @@
+{
+  "update": "proposal_academic_v1_20261030",
+  "date": "2026-10-30",
+  "scope": "Presentation assets, captions, catalogue and portable figure replay only",
+  "passed": true,
+  "llm_calls": 0,
+  "changed_existing_paths": [
+    "README.md",
+    "docs/figure_registry.csv",
+    "docs/figures.md",
+    "docs/reproducibility.md",
+    "docs/version_audit.md",
+    "scripts/build_catalogues.py",
+    "scripts/plot_figures.py",
+    "scripts/reproduce.py"
+  ],
+  "unchanged_original_files_n": 188,
+  "historical_figure_files_unchanged_n": 16,
+  "original_assembly_ledger_integrity": {
+    "assembled_files_checked": 169,
+    "mismatches": [],
+    "original_source_hashes_checked": false,
+    "original_source_changes": []
+  },
+  "approved_asset_checks": [
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.png",
+      "sha256": "e83f5a41082e426fdff3508117ce6b4a30781ef49e9177562fed551e935dc209",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.pdf",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.pdf",
+      "sha256": "cfb257795c768dc7a5f79276d3365fbd82bb285de14d294d1e92300716248bc0",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.png",
+      "sha256": "5957c431c97e7ee4f4fce5fc4e1bfc47ca4e79fb51310abddef3ddd8deb9a544",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.pdf",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.pdf",
+      "sha256": "b108b8859e835ae76425f2c702ee8b283da167600d686598331f11a449d300ed",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.png",
+      "sha256": "0130cda99eef8768d49f17423042c2523ccb4801b63adc9e4db38cc6c1c4f320",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.pdf",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.pdf",
+      "sha256": "83a342858d55e8f6b7558701eb351adb0845f8e7aa6f6934b7b2b46fe7975229",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.png",
+      "sha256": "6c1fd4559c0e68503d5e1d45a43082e5d2c395244e1dd1a066d5a995faee9252",
+      "byte_identical_to_approved_asset": true
+    },
+    {
+      "prototype_path": "figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.pdf",
+      "source_path": "outputs/figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.pdf",
+      "sha256": "7fa9d9a94b4dd9d861107a43f6aa598c2018f8d0d5dacb4551e3cb719f008046",
+      "byte_identical_to_approved_asset": true
+    }
+  ],
+  "copied_plotting_definition_checks": [
+    {
+      "function": "annual_rate_figure",
+      "source_definition_unchanged": true
+    },
+    {
+      "function": "export",
+      "source_definition_unchanged": true
+    },
+    {
+      "function": "academic_pies",
+      "source_definition_unchanged": true
+    },
+    {
+      "function": "academic_annual_heatmap",
+      "source_definition_unchanged": true
+    },
+    {
+      "function": "academic_exclusion_bars",
+      "source_definition_unchanged": true
+    }
+  ],
+  "figure_replay": {
+    "selected_figures_replayed": 11,
+    "byte_identical_png_n": 11,
+    "pixel_identical_png_n": 11,
+    "llm_calls": 0
+  },
+  "new_pdf_replay_checks": [
+    {
+      "prototype_pdf": "figures/proposal_academic_v1_20261030/implementation/figure1_annual_positive_rate.pdf",
+      "sha256": "cfb257795c768dc7a5f79276d3365fbd82bb285de14d294d1e92300716248bc0",
+      "replay_pdf_byte_identical": true
+    },
+    {
+      "prototype_pdf": "figures/proposal_academic_v1_20261030/practices/annual_governance_practices_composition_share.pdf",
+      "sha256": "83a342858d55e8f6b7558701eb351adb0845f8e7aa6f6934b7b2b46fe7975229",
+      "replay_pdf_byte_identical": true
+    },
+    {
+      "prototype_pdf": "figures/proposal_academic_v1_20261030/size_industry/figure1_annual_positive_rate.pdf",
+      "sha256": "b108b8859e835ae76425f2c702ee8b283da167600d686598331f11a449d300ed",
+      "replay_pdf_byte_identical": true
+    },
+    {
+      "prototype_pdf": "figures/proposal_academic_v1_20261030/size_industry/figure2b_size_sector_exclusion.pdf",
+      "sha256": "7fa9d9a94b4dd9d861107a43f6aa598c2018f8d0d5dacb4551e3cb719f008046",
+      "replay_pdf_byte_identical": true
+    }
+  ],
+  "local_document_links_checked": 53,
+  "broken_local_links": [],
+  "governance_replay": {
+    "firm_year_panel": {
+      "rows": 8500,
+      "columns": 29,
+      "unequal_cells": 0
+    },
+    "exclusion_panel": {
+      "rows": 500,
+      "columns": 29,
+      "unequal_cells": 0
+    },
+    "final_records_n": 16222,
+    "frame_firm_year_n": 9000,
+    "annual_counts_and_rates_match": true
+  },
+  "practices_replay": {
+    "native_panel": {
+      "rows": 303,
+      "columns": 108,
+      "unequal_cells": 0
+    },
+    "primary_panel": {
+      "rows": 303,
+      "columns": 28,
+      "unequal_cells": 0
+    },
+    "validated_evidence_units_n": 403,
+    "exact_context_quote_rows_n": 606,
+    "practice_assignments_n": 467,
+    "practice_statistics_match": true,
+    "validation_scope": "Original structural, category, status and continuous-context quote checks; no semantic accuracy claim"
+  },
+  "sample_non_api_smoke": {
+    "source_sections_n": 5,
+    "source_hashes_match": true,
+    "source_quote_and_schema_validation": true,
+    "saved_system_prompt_matches_builder": true,
+    "historical_request_payloads_built_without_network": 5,
+    "exact_original_payload_hash_matches": 5,
+    "practices_saved_request_matches_runtime_builder": true,
+    "practices_runtime_template_verified_against_saved_request": true,
+    "label_counts": {
+      "Negative": 1,
+      "Positive": 4
+    },
+    "paid_inference_executed": false
+  },
+  "credentials": {
+    "files_scanned": 254,
+    "credential_value_findings": []
+  },
+  "classification_and_summary_data_unchanged": true,
+  "semantic_validation_status": "No new inference or human semantic validation; inherited validation limits unchanged",
+  "previous_seal": "docs/provenance/proposal_presentation_update_20261030/previous_delivery_manifest.json"
+}
